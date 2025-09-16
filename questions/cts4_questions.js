@@ -1,38 +1,5 @@
-var cts4_questions = {
+var chapter4_questions = {
     "questions": [
-        {
-            "id": "cts4_1",
-            "question": "After presenting a proposal, what is the correct plan of action for following up with the client?",
-            "options": [
-                "Wait for the client to call back",
-                "Call the client every day until a decision is made",
-                "Regularly, until a decision is made",
-                "Assume the project is lost if no response is received in a week"
-            ],
-            "answer": "Regularly, until a decision is made"
-        },
-        {
-            "id": "cts4_2",
-            "question": "When training a new user how to operate the solution that has been provided, which of the following is a best practice?",
-            "options": [
-                "Provide training only if the client requests it",
-                "Conduct the training session before the system is fully installed",
-                "Provide complete user documentation prior to training",
-                "Only train the most senior person in the room"
-            ],
-            "answer": "Provide complete user documentation prior to training"
-        },
-        {
-            "id": "cts4_3",
-            "question": "What is a benefit of offering a free training session for a client with new equipment?",
-            "options": [
-                "It increases the project's profit margin",
-                "It is a requirement for all AV projects",
-                "It is a positive approach for a long-term partnership",
-                "It eliminates the need for any user documentation"
-            ],
-            "answer": "It is a positive approach for a long-term partnership"
-        },
         {
             "id": "cts4_4",
             "question": "A dimmer rack with a constant load capability is powering twenty four incandescent lights during a stage production. The dimmer rack is running on a steady 230VAC supply and averaging approximately 98 amps draw. Suddenly the line voltage drops to 211VAC. Calculate the expected amperage draw.",
@@ -144,17 +111,6 @@ var cts4_questions = {
             "answer": "Document all transactions, resolve concerns in a professional manner."
         },
         {
-            "id": "cts4_14",
-            "question": "What should be done when you receive a call that there is no sound in a room for an AV event?",
-            "options": [
-                "Tell the user to restart the entire system",
-                "Immediately dispatch a technician to the site",
-                "Check microphone, batteries, and power switches to assure they are on.",
-                "Assume the equipment has failed and order a replacement"
-            ],
-            "answer": "Check microphone, batteries, and power switches to assure they are on."
-        },
-        {
             "id": "cts4_15",
             "question": "Employee evaluations must include:",
             "options": [
@@ -188,17 +144,6 @@ var cts4_questions = {
             "answer": "Reverse the H and V sync cables."
         },
         {
-            "id": "cts4_18",
-            "question": "What should be done if a touch screen control panel is reportedly locked up, frozen, or other wise reported to be not functioning?",
-            "options": [
-                "Tell the user to hit the screen harder",
-                "Immediately order a replacement panel",
-                "Check all connectors, confirm the screen is not in power saver mode.",
-                "Assume the programming is corrupt and needs to be reloaded"
-            ],
-            "answer": "Check all connectors, confirm the screen is not in power saver mode."
-        },
-        {
             "id": "cts4_19",
             "question": "What should you do if the audio system is emitting a high frequency hiss, or a waterfall sound?",
             "options": [
@@ -210,28 +155,6 @@ var cts4_questions = {
             "answer": "Check inputs on the mixer, make sure not set too low, check all input gains"
         },
         {
-            "id": "cts4_20",
-            "question": "Good customer service is crucial for",
-            "options": [
-                "Maximizing short-term profits",
-                "Building good customer relationships",
-                "Avoiding all technical support calls",
-                "Justifying higher prices"
-            ],
-            "answer": "Building good customer relationships"
-        },
-        {
-            "id": "cts4_21",
-            "question": "When is the best time to train users during the System Commissioning and Training Phase of a project?",
-            "options": [
-                "Before the system is installed",
-                "During the installation process",
-                "After the system is complete",
-                "Training is not necessary"
-            ],
-            "answer": "After the system is complete"
-        },
-        {
             "id": "cts4_22",
             "question": "When including GUI Layouts into the Design Documents, which of the following should also be included for optimum usability?",
             "options": [
@@ -241,6 +164,94 @@ var cts4_questions = {
                 "A list of alternative color schemes"
             ],
             "answer": "Button-by-Button Functionality"
+        },
+        {
+            "id": "cts4_23",
+            "question": "How often must a Certified Technology Specialist (CTS) holder renew their certification through continuing education?",
+            "options": [
+                "Every year",
+                "Every three years",
+                "Every five years",
+                "Only once upon initial certification"
+            ],
+            "answer": "Every three years"
+        },
+        {
+            "id": "cts4_24",
+            "question": "How many Renewal Units (RUs) must a CTS holder complete within their certification period to be eligible for renewal?",
+            "options": [
+                "Fifteen (15)",
+                "Sixty (60)",
+                "Thirty (30)",
+                "Forty-five (45)"
+            ],
+            "answer": "Thirty (30)"
+        },
+        {
+            "id": "cts4_25",
+            "question": "When a client reports a technical issue with an AV system, what is the most critical information to obtain first to begin the formal troubleshooting process?",
+            "options": [
+                "The client's opinion on what is broken",
+                "A detailed description of the problem and any error messages",
+                "The original purchase date of the equipment",
+                "The name of the last person who used the system"
+            ],
+            "answer": "A detailed description of the problem and any error messages"
+        },
+        {
+            "id": "cts4_26",
+            "question": "A third party requests a copy of the final system programming files for a client's project. According to the principle of confidentiality, what is the correct action?",
+            "options": [
+                "Immediately provide the files to be helpful",
+                "Do not provide the files without written permission from the client",
+                "Provide the files but charge an administrative fee",
+                "Deny the request and refuse to explain why"
+            ],
+            "answer": "Do not provide the files without written permission from the client"
+        },
+        {
+            "id": "cts4_27",
+            "question": "A client has lost their copy of the 'as-built' system drawings and requests a replacement. What is the standard industry practice?",
+            "options": [
+                "Inform the client that drawings can never be re-issued",
+                "Redraw the entire system from scratch for a large fee",
+                "Provide a replacement copy, potentially for a small administrative fee",
+                "Tell the client to find the original copy they were given"
+            ],
+            "answer": "Provide a replacement copy, potentially for a small administrative fee"
+        },
+        {
+            "id": "cts4_28",
+            "question": "When a client has a formal complaint about a service provided, what is the best first step to ensure the issue is properly addressed?",
+            "options": [
+                "Try to solve the problem over the phone immediately without documentation",
+                "Have the client submit the complaint in writing to create a formal record",
+                "Offer a discount on future services to smooth things over",
+                "Wait a few days to see if the client is still upset"
+            ],
+            "answer": "Have the client submit the complaint in writing to create a formal record"
+        },
+        {
+            "id": "cts4_29",
+            "question": "What is the CTS holder's primary responsibility regarding Renewal Units (RUs) for certification maintenance?",
+            "options": [
+                "To attend every AVIXA-hosted event",
+                "To keep a personal record of all renewal units earned",
+                "To wait for AVIXA to send a complete record automatically",
+                "To only use one provider for all RUs"
+            ],
+            "answer": "To keep a personal record of all renewal units earned"
+        },
+        {
+            "id": "cts4_30",
+            "question": "A supervisor assigns a CTS technician to a complex task that is beyond their experience. According to the CTS Code of Ethics and Conduct, what should the technician do?",
+            "options": [
+                "Attempt the task anyway to avoid looking inexperienced",
+                "Inform the supervisor that they should only undertake assignments for which they are capable",
+                "Delegate the task to a junior technician",
+                "Watch online videos to learn how to do it on the spot"
+            ],
+            "answer": "Inform the supervisor that they should only undertake assignments for which they are capable"
         }
     ]
-};
+}
