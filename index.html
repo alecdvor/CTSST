@@ -161,13 +161,14 @@
             const LICENSE_CLASSES = {
                 CTS: {
                     prefix: 'c',
-                    examQuestions: 35,
-                    passingScore: 26,
+                    // examQuestions: 35, // <-- REMOVE THIS LINE
+                    passingScore: 75, // You'll need to adjust this to match the new total
                     chapters: [
-                        { id: 1, title: "Essentials of AV technology" } 
-                        /* , { id: 2, title: "Creating AV Solutions" },
-                        { id: 3, title: "Implementing AV Solutions" }, { id: 4, title: "Servicing AV Solutions" },
-                        { id: 5, title: "Appendixes" }
+                        { id: 1, title: "Essentials of AV technology", examCount: 35 },
+                        { id: 2, title: "Creating AV Solutions", examCount: 35 },
+                        { id: 3, title: "Implementing AV Solutions", examCount: 30 },
+                        { id: 4, title: "Servicing AV Solutions", examCount: 35 },
+                        { id: 5, title: "Appendices", examCount: 0 }
                     ]
                 },
                 CTS_D: {
@@ -192,7 +193,7 @@
                         { id: 5, title: " " }, { id: 6, title: " " },
                         { id: 7, title: " " }, { id: 8, title: " " },
                         { id: 9, title: " " }, { id: 10, title: " " }
-                         */
+                         
                     ]
                 }
             };
@@ -339,14 +340,19 @@
                 selectedLicense = availableClasses[name];
                 licenseContainer.classList.add('hidden');
                 
+                // --- Start of new code ---
+                // Calculate the total number of questions by adding up the counts from each chapter
+                const totalExamQuestions = selectedLicense.chapters.reduce((total, ch) => total + (ch.examCount || 0), 0);
+                // --- End of new code ---
+
                 // Configure and show mode selection screen
                 selectionHeader.textContent = `${name} Class Study`;
-                examDesc.textContent = `${selectedLicense.examQuestions} random questions.`;
-                examLongDesc.textContent = `Take a simulated ${name} class exam with ${selectedLicense.examQuestions} randomly selected questions from the entire pool. You need ${selectedLicense.passingScore} correct answers to pass. Your time will be recorded.`;
+                examDesc.textContent = `${totalExamQuestions} questions from selected chapters.`; // <-- Modified line
+                examLongDesc.textContent = `Take a simulated ${name} class exam with ${totalExamQuestions} questions drawn from specific chapters. You need a score of ${selectedLicense.passingScore}% to pass. Your time will be recorded.`; // <-- Modified line
+                
                 initializeChapterSelection(selectedLicense.chapters);
                 selectionContainer.classList.remove('hidden');
             }
-
             function initializeChapterSelection(chapters) {
                 chapterList.innerHTML = ''; // Clear previous chapters
                 chapters.forEach(chapter => {
@@ -556,9 +562,24 @@
                     if (randomizeCheckbox.checked) allQuestions.sort(() => Math.random() - 0.5);
                 } else if (gameMode === 'exam') {
                     examStartTime = new Date();
-                    const fullPool = selectedLicense.chapters.map(ch => ch.data.questions).flat();
-                    fullPool.sort(() => Math.random() - 0.5);
-                    allQuestions = fullPool.slice(0, selectedLicense.examQuestions);
+                    let examPool = []; // Create an empty array to hold the exam questions
+
+                    // Go through each chapter defined for the selected license
+                    selectedLicense.chapters.forEach(ch => {
+                        // Check if the chapter has questions and a specified exam count
+                        if (ch.data && ch.data.questions && ch.examCount > 0) {
+                            // Shuffle that chapter's questions randomly
+                            const shuffledChapterQuestions = ch.data.questions.sort(() => Math.random() - 0.5);
+                            // Take the specified number of questions from the top
+                            const selectedQuestions = shuffledChapterQuestions.slice(0, ch.examCount);
+                            // Add these selected questions to our main exam pool
+                            examPool.push(...selectedQuestions);
+                        }
+                    });
+
+                    // Shuffle the final combined pool so questions from different chapters are mixed
+                    allQuestions = examPool.sort(() => Math.random() - 0.5);
+                    
                     userAnswers = new Array(allQuestions.length).fill(null);
                     timerInterval = setInterval(updateTimer, 1000);
                 }
