@@ -1,4 +1,4 @@
-var cts1_questions = {
+var cts1_questions = { 
     "questions": [
         {
             "id": "cts1_1",
