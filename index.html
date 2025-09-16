@@ -45,19 +45,16 @@
 <body class="bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-gray-100 flex flex-col min-h-screen">
     <canvas id="bg-canvas"></canvas>
     <main class="w-full flex-grow flex items-center justify-center p-4">
-        <!-- License Selection Screen -->
         <div id="license-container" class="w-full max-w-2xl mx-auto bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 md:p-8">
             <h1 class="text-3xl md:text-4xl font-bold text-center text-gray-800 dark:text-white mb-4"> CTS Exam Study Tool </h1>
             <h2 class="text-xl md:text-2xl text-center text-gray-500 dark:text-gray-400 mb-8">Select License Class</h2>
             <div id="license-list" class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
-            <!-- License buttons will be dynamically inserted here -->
             </div>
              <button id="view-progress-btn" class="w-full bg-gray-500 text-white font-bold py-3 px-8 rounded-lg hover:bg-gray-600 focus:outline-none focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-700 transition-colors">
                 View Progress
             </button>
         </div>
 
-        <!-- Main Selection Screen -->
         <div id="selection-container" class="w-full max-w-2xl mx-auto bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 md:p-8 hidden">
             <h1 id="selection-header" class="text-2xl md:text-3xl font-bold text-center text-gray-800 dark:text-white mb-6">Choose a Study Mode</h1>
             
@@ -93,13 +90,10 @@
             <button id="back-to-license-btn" class="w-full mt-4 bg-gray-500 text-white font-bold py-3 px-8 rounded-lg hover:bg-gray-600">Back</button>
         </div>
 
-        <!-- Main Game Screen (DOM-based) -->
         <div id="game-container" class="w-full max-w-2xl mx-auto bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 md:p-8 hidden"></div>
 
-        <!-- Final Score Screen -->
         <div id="score-container" class="w-full max-w-2xl mx-auto bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 md:p-8 hidden"></div>
         
-        <!-- Progress Screen -->
         <div id="progress-container" class="w-full max-w-4xl mx-auto bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 md:p-8 hidden"></div>
     </main>
 
@@ -116,79 +110,40 @@
                 </footer>
 
 
-    <!-- CTS Class Question Files -->
-    <script src="questions/cts1_questions.js"></script>
-    
-    <script src="questions/cts2_questions.js"></script>
-    <script src="questions/cts3_questions.js"></script>
-    <script src="questions/cts4_questions.js"></script>
-    <!--
-
-    <!-- CTS-I Class Question Files -->    <!--
-    <script src="questions/g1_questions.js"></script>
-    <script src="questions/g2_questions.js"></script>
-    <script src="questions/g3_questions.js"></script>
-    <script src="questions/g4_questions.js"></script>
-    <script src="questions/g5_questions.js"></script>
-    <script src="questions/g6_questions.js"></script>
-    <script src="questions/g7_questions.js"></script>
-    <script src="questions/g8_questions.js"></script>
-    <script src="questions/g9_questions.js"></script>
-    <script src="questions/g10_questions.js"></script>
--->
-    <!-- CTS-D Class Question Files -->    <!--
-    <script src="questions/e1_questions.js"></script>
-    <script src="questions/e2_questions.js"></script>
-    <script src="questions/e3_questions.js"></script>
-    <script src="questions/e4_questions.js"></script>
-    <script src="questions/e5_questions.js"></script>
-    <script src="questions/e6_questions.js"></script>
-    <script src="questions/e7_questions.js"></script>
-    <script src="questions/e8_questions.js"></script>
-    <script src="questions/e9_questions.js"></script>
-    <script src="questions/e10_questions.js"></script>
--->
-
+    <script src="questions/c1_questions.js"></script>
+    <script src="questions/c2_questions.js"></script>
+    <script src="questions/c3_questions.js"></script>
+    <script src="questions/c4_questions.js"></script>
     <script>
         window.addEventListener('load', () => {
         setTimeout(() => { 
             // ----- DATA -----
+            // ##### MODIFICATION 1: UPDATED LICENSE_CLASSES OBJECT #####
             const LICENSE_CLASSES = {
                 CTS: {
                     prefix: 'c',
-                    // examQuestions: 35, // <-- REMOVE THIS LINE
-                    passingScore: 75, // You'll need to adjust this to match the new total
+                    passingScore: 75, // Adjusted for a 100-question exam
                     chapters: [
                         { id: 1, title: "Essentials of AV technology", examCount: 35 },
-                        { id: 2, title: "Creating AV Solutions", examCount: 35 },
-                        { id: 3, title: "Implementing AV Solutions", examCount: 30 },
-                        { id: 4, title: "Servicing AV Solutions", examCount: 35 },
-                        { id: 5, title: "Appendices", examCount: 0 }
+                        { id: 2, title: "Creating AV Solutions", examCount: 30 },
+                        { id: 3, title: "Implementing AV Solutions", examCount: 15 },
+                        { id: 4, title: "Servicing AV Solutions", examCount: 20 }
                     ]
                 },
                 CTS_D: {
                     prefix: 'd',
-                    examQuestions: 35,
-                    passingScore: 26,
+                    passingScore: 26, // Example value, adjust as needed
                     chapters: [
-                        { id: 1, title: " " }, { id: 2, title: " " },
-                        { id: 3, title: " " }, { id: 4, title: " " },
-                        { id: 5, title: " " }, { id: 6, title: " " },
-                        { id: 7, title: " " }, { id: 8, title: " " },
-                        { id: 9, title: " " }, { id: 10, title: " " }
+                        // { id: 1, title: "...", examCount: 10 }, 
+                        // { id: 2, title: "...", examCount: 10 }
                     ]
                 },
                 CTS_I: {
                     prefix: 'i',
-                    examQuestions: 50,
-                    passingScore: 37,
+                    passingScore: 37, // Example value, adjust as needed
                     chapters: [
-                        { id: 1, title: " " }, { id: 2, title: " " },
-                        { id: 3, title: " " }, { id: 4, title: " " },
-                        { id: 5, title: " " }, { id: 6, title: " " },
-                        { id: 7, title: " " }, { id: 8, title: " " },
-                        { id: 9, title: " " }, { id: 10, title: " " }
-                         
+                        // { id: 1, title: "...", examCount: 10 },
+                        // { id: 2, title: "...", examCount: 15 }
                     ]
                 }
             };
@@ -263,8 +218,6 @@
             }
 
             function resetProgress() {
-                // Replaced the blocking confirm() dialog for better stability.
-                // A custom modal could be added here in the future for a better user experience.
                 localStorage.removeItem('arlstProgress');
                 userProgress = {};
                 loadProgress(); // Re-initialize
@@ -331,23 +284,23 @@
                 });
             }
 
+            // ##### MODIFICATION 2: UPDATED selectLicense FUNCTION #####
             function selectLicense(name) {
                 selectedLicense = availableClasses[name];
                 licenseContainer.classList.add('hidden');
                 
-                // --- Start of new code ---
                 // Calculate the total number of questions by adding up the counts from each chapter
                 const totalExamQuestions = selectedLicense.chapters.reduce((total, ch) => total + (ch.examCount || 0), 0);
-                // --- End of new code ---
 
                 // Configure and show mode selection screen
                 selectionHeader.textContent = `${name} Class Study`;
-                examDesc.textContent = `${totalExamQuestions} questions from selected chapters.`; // <-- Modified line
-                examLongDesc.textContent = `Take a simulated ${name} class exam with ${totalExamQuestions} questions drawn from specific chapters. You need a score of ${selectedLicense.passingScore}% to pass. Your time will be recorded.`; // <-- Modified line
+                examDesc.textContent = `${totalExamQuestions} questions from selected chapters.`;
+                examLongDesc.textContent = `Take a simulated ${name} class exam with ${totalExamQuestions} questions drawn from specific chapters. You need ${selectedLicense.passingScore} correct answers to pass. Your time will be recorded.`;
                 
                 initializeChapterSelection(selectedLicense.chapters);
                 selectionContainer.classList.remove('hidden');
             }
+
             function initializeChapterSelection(chapters) {
                 chapterList.innerHTML = ''; // Clear previous chapters
                 chapters.forEach(chapter => {
@@ -436,8 +389,6 @@
 
             function handleOptionClick(selectedButton, question) {
                 if (gameMode === 'study') {
-                    // Instead of disabling buttons (which can cause style overrides),
-                    // we'll add a class to the container to prevent further clicks via CSS.
                     document.getElementById('options-container').classList.add('answered');
                     
                     const buttons = document.querySelectorAll('.option-btn');
@@ -461,7 +412,6 @@
                         missedQuestions.push({ question: question.question, yourAnswer: selectedAnswer, correctAnswer: correctAnswer, id: question.id });
                         selectedButton.classList.remove('bg-gray-100', 'dark:bg-gray-700', 'hover:bg-blue-100', 'dark:hover:bg-blue-900');
                         selectedButton.classList.add('bg-red-500', 'text-white');
-                        // Highlight the correct answer in green
                         buttons.forEach(b => { 
                             if (b.textContent === correctAnswer) {
                                 b.classList.remove('bg-gray-100', 'dark:bg-gray-700', 'hover:bg-blue-100', 'dark:hover:bg-blue-900');
@@ -470,7 +420,7 @@
                         });
                     }
 
-                    saveProgress(); // Save progress after each question.
+                    saveProgress();
 
                     document.getElementById('live-score').textContent = `Score: ${overallScore.correct} / ${overallScore.attempted}`;
                     
@@ -542,6 +492,7 @@
                 timerEl.textContent = `Time: ${minutes}:${seconds}`;
             }
 
+            // ##### MODIFICATION 3: UPDATED startGame FUNCTION #####
             function startGame() {
                 allQuestions = []; currentQuestionIndex = 0; missedQuestions = []; chapterScores = {};
                 overallScore = { correct: 0, attempted: 0 }; clearInterval(timerInterval);
@@ -594,14 +545,14 @@
                     const minutes = Math.floor(elapsedMs / 60000);
                     timeString = `${minutes}m ${seconds}s`;
                     passed = overallScore.correct >= selectedLicense.passingScore;
-                    userProgress[licenseName].examHistory.push({ date: new Date().toLocaleDateString(), score: `${overallScore.correct} / ${selectedLicense.examQuestions}`, passed: passed, time: timeString });
+                    userProgress[licenseName].examHistory.push({ date: new Date().toLocaleDateString(), score: `${overallScore.correct} / ${allQuestions.length}`, passed: passed, time: timeString });
                     saveProgress();
                 }
 
                 let scoreHTML = ``;
                 if(gameMode === 'exam'){
                     scoreHTML += `<h1 class="text-3xl font-bold text-center mb-2">Practice Exam Complete!</h1><p class="text-center text-lg mb-6 ${passed ? 'text-green-500' : 'text-red-500'} font-semibold">${passed ? 'Result: PASS' : 'Result: FAIL'}</p>`;
-                    scoreHTML += `<div class="bg-gray-100 dark:bg-gray-700 rounded-lg p-4 mb-6 text-center"><h2 class="text-xl font-bold">Final Score</h2><p class="text-3xl font-light mt-2">${overallScore.correct} / ${selectedLicense.examQuestions}</p><p class="text-md text-gray-500 dark:text-gray-400 mt-2">Time Taken: ${timeString}</p></div>`;
+                    scoreHTML += `<div class="bg-gray-100 dark:bg-gray-700 rounded-lg p-4 mb-6 text-center"><h2 class="text-xl font-bold">Final Score</h2><p class="text-3xl font-light mt-2">${overallScore.correct} / ${allQuestions.length}</p><p class="text-md text-gray-500 dark:text-gray-400 mt-2">Time Taken: ${timeString}</p></div>`;
                 } else {
                     scoreHTML = `<h1 class="text-2xl md:text-3xl font-bold text-center mb-6">Study Session Complete!</h1>`;
                     const percentage = allQuestions.length === 0 ? 0 : Math.round((overallScore.correct / allQuestions.length) * 100);
@@ -655,31 +606,28 @@
 
             // ----- START THE APP -----
             
-            // This function contains the main application logic.
             function main() {
                 loadProgress();
                 initializeLicenseSelection();
             }
 
-            // This function waits until the first question file's data is loaded,
-            // ensuring the app doesn't start prematurely.
+            // ##### MODIFICATION 4: UPDATED waitForDataAndInit FUNCTION #####
             function waitForDataAndInit() {
-                // Check for the variable from the first General class question file.
-                if (typeof window.cts1_questions !== 'undefined') {
+                // Check for the variable from the first CTS class question file.
+                if (typeof window.c1_questions !== 'undefined') {
                     main(); // If it exists, run the main app logic.
                 } else {
-                    setTimeout(waitForDataAndInit, 100); // Otherwise, check again in 100ms.
+                    setTimeout(waitForDataAnd-Init, 100); // Otherwise, check again in 100ms.
                 }
             }
             
             waitForDataAndInit(); // Start the process.
 
-        }, 50); // The outer setTimeout remains as a fallback.
+        }, 50);
         });
     </script>
 
 
-    <!------- Three.js Background Animation ------->
     <script>
     window.addEventListener('load', () => {
         if (typeof THREE === 'undefined') {
@@ -770,29 +718,5 @@
     });
     </script>
     
-    <!------- Ko-fi support me widget 
-    
-    <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
-    <script>
-    kofiWidgetOverlay.draw('alecdvor', {
-    'type': 'floating-chat',
-    'floating-chat.donateButton.text': 'Tip Me',
-    'floating-chat.donateButton.background-color': '#794bc4',
-    'floating-chat.donateButton.text-color': '#fff'
-     });
-    </script>
-    
-    
-    
-    <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
-    <script>
-    kofiWidgetOverlay.draw('alecdvor', {
-    'type': 'floating-chat',
-    'floating-chat.donateButton.text': 'Tip Me',
-    'floating-chat.donateButton.background-color': '#794bc4',
-    'floating-chat.donateButton.text-color': '#fff'
-     });
-    </script>
-    ------->
 </body>
 </html>
