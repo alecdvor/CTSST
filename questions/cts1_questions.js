@@ -1,7 +1,7 @@
-var chapter1_questions = {
+var cts1_questions = {
     "questions": [
         {
-            "id": "cts1_3",
+            "id": "cts1_1",
             "question": "0 dB SPL describes:",
             "options": [
                 "the threshold of human hearing",
@@ -12,7 +12,7 @@ var chapter1_questions = {
             "answer": "the threshold of human hearing"
         },
         {
-            "id": "cts1_4",
+            "id": "cts1_2",
             "question": "What is a decibel?",
             "options": [
                 "A unit for measuring the speed of sound",
@@ -23,7 +23,7 @@ var chapter1_questions = {
             "answer": "a logarithmic scale used to describe ratios with a large range of values"
         },
         {
-            "id": "cts1_5",
+            "id": "cts1_3",
             "question": "An audio amplifier outputs 75 watts and then it is decreased to 50 watts. What is the change in decibels?",
             "options": [
                 "Positive 1.8 dB",
@@ -34,7 +34,7 @@ var chapter1_questions = {
             "answer": "Negative -1.8 dB"
         },
         {
-            "id": "cts1_6",
+            "id": "cts1_4",
             "question": "How loud (in decibels) does a 60 Hz sound have to be for it to be audible?",
             "options": [
                 "0 dB",
@@ -45,9 +45,9 @@ var chapter1_questions = {
             "answer": "40 dB"
         },
         {
-            "id": "cts1_7",
+            "id": "cts1_5",
             "question": "According to the equal loudness curve chart below, how loud does a 20 Hz sound have to be before it is audible?",
-            "image": "cts1_7.png",
+            "image": "cts1_5.png",
             "options": [
                 "20 dB",
                 "50 dB",
@@ -57,7 +57,7 @@ var chapter1_questions = {
             "answer": "70 dB"
         },
         {
-            "id": "cts1_8",
+            "id": "cts1_6",
             "question": "'Weighting' a sound pressure level measurement accounts for differences in the way",
             "options": [
                 "sound reflects off different surfaces",
@@ -68,7 +68,7 @@ var chapter1_questions = {
             "answer": "humans perceive different frequencies at a given listening level"
         },
         {
-            "id": "cts1_9",
+            "id": "cts1_7",
             "question": "You measure the background noise level in a conference room at 40 dB SPL A-wtd. What is the target sound pressure level of the audio system?",
             "options": [
                 "40",
@@ -79,7 +79,7 @@ var chapter1_questions = {
             "answer": "65"
         },
         {
-            "id": "cts1_23",
+            "id": "cts1_8",
             "question": "An increase in voltage means an increase in _____ if the current remains the same",
             "options": [
                 "resistance",
@@ -90,7 +90,7 @@ var chapter1_questions = {
             "answer": "resistance"
         },
         {
-            "id": "cts1_24",
+            "id": "cts1_9",
             "question": "The _____ in an electrical circuit is proportional to the applied _____",
             "options": [
                 "resistance; power",
@@ -101,7 +101,7 @@ var chapter1_questions = {
             "answer": "current; voltage"
         },
         {
-            "id": "cts1_25",
+            "id": "cts1_10",
             "question": "As impedance increases and current remains constant, voltage",
             "options": [
                 "decreases",
@@ -112,7 +112,7 @@ var chapter1_questions = {
             "answer": "increases"
         },
         {
-            "id": "cts1_26",
+            "id": "cts1_11",
             "question": "If the measured voltage in a circuit is 40 V, and the resistance is 8 ohms, what is the current?",
             "options": [
                 "320A",
@@ -123,7 +123,7 @@ var chapter1_questions = {
             "answer": "5A"
         },
         {
-            "id": "cts1_27",
+            "id": "cts1_12",
             "question": "The relationship between current and _____ is inversely proportional.",
             "options": [
                 "voltage",
@@ -134,7 +134,7 @@ var chapter1_questions = {
             "answer": "resistance"
         },
         {
-            "id": "cts1_28",
+            "id": "cts1_13",
             "question": "Resistance _____ the flow of current.",
             "options": [
                 "amplifies",
@@ -145,7 +145,7 @@ var chapter1_questions = {
             "answer": "reduces"
         },
         {
-            "id": "cts1_29",
+            "id": "cts1_14",
             "question": "If the measured current in a circuit is 5 A and the resistance is 8 ohms, what is the voltage?",
             "options": [
                 "40V",
@@ -156,7 +156,7 @@ var chapter1_questions = {
             "answer": "40V"
         },
         {
-            "id": "cts1_30",
+            "id": "cts1_15",
             "question": "If the measured current is 10 A and the voltage is 120 V, what is the resistance in the circuit?",
             "options": [
                 "1200 Ohms",
@@ -167,7 +167,7 @@ var chapter1_questions = {
             "answer": "12 Ohms"
         },
         {
-            "id": "cts1_31",
+            "id": "cts1_16",
             "question": "The current in a circuit is 0.5 A, and the voltage is measured at 9 V. What is the power?",
             "options": [
                 "18 W",
@@ -178,7 +178,7 @@ var chapter1_questions = {
             "answer": "4.5 W"
         },
         {
-            "id": "cts1_32",
+            "id": "cts1_17",
             "question": "The current in a circuit is measured at 1 A, and the resistance is 1 ohm. What is the voltage?",
             "options": [
                 "1V",
@@ -189,7 +189,7 @@ var chapter1_questions = {
             "answer": "1V"
         },
         {
-            "id": "cts1_33",
+            "id": "cts1_18",
             "question": "Determine the wattage in a circuit measuring 120 volts with 15 amperes of current flow.",
             "options": [
                 "8 W",
@@ -200,7 +200,7 @@ var chapter1_questions = {
             "answer": "1800 W"
         },
         {
-            "id": "cts1_34",
+            "id": "cts1_19",
             "question": "The relationship among voltage, current, and resistance is defined by the formula",
             "options": [
                 "V = I + R",
@@ -211,7 +211,7 @@ var chapter1_questions = {
             "answer": "I=V/R"
         },
         {
-            "id": "cts1_35",
+            "id": "cts1_20",
             "question": "If the measured power in a circuit is 5W, and the current is 1.5 amps, what is the voltage?",
             "options": [
                 "7.5V",
@@ -222,7 +222,7 @@ var chapter1_questions = {
             "answer": "3.3V"
         },
         {
-            "id": "cts1_39",
+            "id": "cts1_21",
             "question": "The study of sound-wave motion and sound behavior is the science of",
             "options": [
                 "Psychoacoustics",
@@ -233,7 +233,7 @@ var chapter1_questions = {
             "answer": "The Study of Acoustics"
         },
         {
-            "id": "cts1_40",
+            "id": "cts1_22",
             "question": "Which type of sound is most intelligible?",
             "options": [
                 "Direct sound",
@@ -244,7 +244,7 @@ var chapter1_questions = {
             "answer": "Direct sound"
         },
         {
-            "id": "cts1_41",
+            "id": "cts1_23",
             "question": "Sound that bounces off of many surfaces before reaching the listener is called _____ sound",
             "options": [
                 "Direct",
@@ -255,7 +255,7 @@ var chapter1_questions = {
             "answer": "Reverberant"
         },
         {
-            "id": "cts1_75",
+            "id": "cts1_24",
             "question": "Which of the following is defined as highly efficient?",
             "options": [
                 "Incandescent Lamp",
@@ -266,7 +266,7 @@ var chapter1_questions = {
             "answer": "LED Lamp"
         },
         {
-            "id": "cts1_78",
+            "id": "cts1_25",
             "question": "When applying the inverse square law to measurements of sound pressure level,",
             "options": [
                 "A doubling of distance correlates to a loss of 3dB.",
@@ -277,7 +277,7 @@ var chapter1_questions = {
             "answer": "A doubling of distance correlates to a loss of 6dB."
         },
         {
-            "id": "cts2_1",
+            "id": "cts1_26",
             "question": "Your room design can accommodate a screen with a width of up to 80 inches wide. The screen height is reasonably unrestrained. Your client's video image source produces a 1920x1080 resolution. Which of the following screens could be a viable option in this scenario? Choose all that apply.",
             "options": [
                 "A screen with an image width of 80 inches and a height of 60 inches (4:3 aspect ratio)",
@@ -288,7 +288,7 @@ var chapter1_questions = {
             "answer": "A screen with an image width of 80 inches and a height of 45 inches; A screen with an image width of 40 inches and a height of 22.5 inches"
         },
         {
-            "id": "cts2_2",
+            "id": "cts1_27",
             "question": "What is the aspect ratio of a screen with a width of 108 inches (2743 mm) and a diagonal of 135 inches (3429)?",
             "options": [
                 "4:3",
@@ -299,7 +299,7 @@ var chapter1_questions = {
             "answer": "4:3"
         },
         {
-            "id": "cts2_3",
+            "id": "cts1_28",
             "question": "You require a 16:9 screen with a height of 60 inches (1524 mm). What will the screen's diagonal be?",
             "options": [
                 "106.7 inches",
@@ -310,7 +310,7 @@ var chapter1_questions = {
             "answer": "122.4 inches"
         },
         {
-            "id": "cts2_4",
+            "id": "cts1_29",
             "question": "A 16:9 screen will be installed in a lecture hall. The screen's diagonal is 72 inches (1829 mm). What is its width?",
             "options": [
                 "62.8 inches",
@@ -321,7 +321,7 @@ var chapter1_questions = {
             "answer": "62.8 inches"
         },
         {
-            "id": "cts2_5",
+            "id": "cts1_30",
             "question": "A screen's dimensions are 96 inches (2438 mm) x 96 inches (2438 mm). What width does an image on that screen need to be for a 16:9 aspect ratio image?",
             "options": [
                 "54 inches (1372 mm)",
@@ -332,7 +332,7 @@ var chapter1_questions = {
             "answer": "96 inches (2438 mm)"
         },
         {
-            "id": "cts2_6",
+            "id": "cts1_31",
             "question": "What viewing category applies to a space used for technical drawings?",
             "options": [
                 "Passive Viewing (PVM)",
@@ -343,7 +343,7 @@ var chapter1_questions = {
             "answer": "Analytical Decision Making (ADM)"
         },
         {
-            "id": "cts2_7",
+            "id": "cts1_32",
             "question": "What viewing category applies to a space used for PowerPoint presentations?",
             "options": [
                 "Analytical Decision Making (ADM)",
@@ -354,7 +354,7 @@ var chapter1_questions = {
             "answer": "Basic Decision Making (BDM)"
         },
         {
-            "id": "cts2_8",
+            "id": "cts1_33",
             "question": "What Viewing Category applies to a space used for medical imagery?",
             "options": [
                 "Basic Decision Making (BDM)",
@@ -365,7 +365,7 @@ var chapter1_questions = {
             "answer": "Analytical Decision Making (ADM)"
         },
         {
-            "id": "cts2_9",
+            "id": "cts1_34",
             "question": "What Viewing Category applies to a space used for word processing and spreadsheets?",
             "options": [
                 "Analytical Decision Making (ADM)",
@@ -376,7 +376,7 @@ var chapter1_questions = {
             "answer": "Basic Decision Making (BDM)"
         },
         {
-            "id": "cts2_10",
+            "id": "cts1_35",
             "question": "What viewing category applies to a space used for word processing and technical drawings?",
             "options": [
                 "Only ADM",
@@ -387,7 +387,7 @@ var chapter1_questions = {
             "answer": "Both ADM and BDM"
         },
         {
-            "id": "cts2_11",
+            "id": "cts1_36",
             "question": "Calculate the image height for a 2 percent element height (round to the nearest inch or millimeter):",
             "options": [
                 "50 in",
@@ -398,7 +398,7 @@ var chapter1_questions = {
             "answer": "84 in"
         },
         {
-            "id": "cts2_12",
+            "id": "cts1_37",
             "question": "Calculate the image height for a 3 percent element height (round to the nearest inch or millimeter):",
             "options": [
                 "33 in",
@@ -409,7 +409,7 @@ var chapter1_questions = {
             "answer": "56 in"
         },
         {
-            "id": "cts2_13",
+            "id": "cts1_38",
             "question": "Calculate the image height for a 4 percent element height (round to the nearest inch or millimeter):",
             "options": [
                 "25 in",
@@ -420,7 +420,7 @@ var chapter1_questions = {
             "answer": "42 in"
         },
         {
-            "id": "cts2_14",
+            "id": "cts1_39",
             "question": "The benefits of DISCAS include (Check all that apply):",
             "options": [
                 "It mandates specific screen sizes",
@@ -431,7 +431,7 @@ var chapter1_questions = {
             "answer": "Are independently confirmed and ratified; Takes different resolutions into account; Takes different aspect ratios into account"
         },
         {
-            "id": "cts2_15",
+            "id": "cts1_40",
             "question": "The most common type of Viewing Category is",
             "options": [
                 "Analytical Decision Making (ADM)",
@@ -442,7 +442,7 @@ var chapter1_questions = {
             "answer": "Basic Decision Making (BDM)"
         },
         {
-            "id": "cts2_16",
+            "id": "cts1_41",
             "question": "In a BDM environment, viewers are more concerned with",
             "options": [
                 "fine print and details",
@@ -453,7 +453,7 @@ var chapter1_questions = {
             "answer": "overall content than detail"
         },
         {
-            "id": "cts2_17",
+            "id": "cts1_42",
             "question": "The term '% element height' refers to",
             "options": [
                 "the height of the screen mount relative to the floor",
@@ -464,7 +464,7 @@ var chapter1_questions = {
             "answer": "the height of the element being viewed expressed in relation to the overall image height"
         },
         {
-            "id": "cts2_18",
+            "id": "cts1_43",
             "question": "DISCAS defines the minimum distance one can be to a display as the _____ and the maximum distance one can be from a display as _____",
             "options": [
                 "Farthest Viewer; Closest Viewer",
@@ -475,7 +475,7 @@ var chapter1_questions = {
             "answer": "Closest Viewer; Farthest Viewer"
         },
         {
-            "id": "cts2_19",
+            "id": "cts1_44",
             "question": "An element is (Choose the best answer)",
             "options": [
                 "a single pixel on a display",
@@ -486,7 +486,7 @@ var chapter1_questions = {
             "answer": "a group of pixels conveying an item of information"
         },
         {
-            "id": "cts2_20",
+            "id": "cts1_45",
             "question": "DISCAS addresses the following viewing categories (check all that apply):",
             "options": [
                 "Passive Viewing; Entertainment Viewing",
@@ -497,7 +497,7 @@ var chapter1_questions = {
             "answer": "Basic Decision Making; Analytical Decision Making"
         },
         {
-            "id": "cts2_21",
+            "id": "cts1_46",
             "question": "If an intended viewer needs to distinguish the finest details displayed, the designer/assessor should use the _____ Viewing Category.",
             "options": [
                 "Analytical Decision Making",
@@ -508,7 +508,7 @@ var chapter1_questions = {
             "answer": "Analytical Decision Making"
         },
         {
-            "id": "cts2_22",
+            "id": "cts1_47",
             "question": "There is a Closest Viewer calculation for ADM.",
             "options": [
                 "TRUE",
@@ -519,7 +519,7 @@ var chapter1_questions = {
             "answer": "FALSE"
         },
         {
-            "id": "cts2_23",
+            "id": "cts1_48",
             "question": "No viewing position in the horizontal plane should exceed _____ degrees from the opposite perpendicular edge of the displayed image.",
             "options": [
                 "30",
@@ -530,7 +530,7 @@ var chapter1_questions = {
             "answer": "60"
         },
         {
-            "id": "cts2_24",
+            "id": "cts1_49",
             "question": "An elevation view is a required drawing for ADM.",
             "options": [
                 "TRUE",
@@ -541,7 +541,7 @@ var chapter1_questions = {
             "answer": "FALSE"
         },
         {
-            "id": "cts2_25",
+            "id": "cts1_50",
             "question": "There is a Closest Viewer for BDM.",
             "options": [
                 "TRUE",
@@ -552,7 +552,7 @@ var chapter1_questions = {
             "answer": "TRUE"
         },
         {
-            "id": "cts2_26",
+            "id": "cts1_51",
             "question": "DISCAS calculations must use consistent units.",
             "options": [
                 "TRUE",
@@ -563,7 +563,7 @@ var chapter1_questions = {
             "answer": "TRUE"
         },
         {
-            "id": "cts2_27",
+            "id": "cts1_52",
             "question": "The Farthest Viewer distance for ADM depends on (select all that apply):",
             "options": [
                 "Screen Width; Horizontal Image Resolution",
@@ -574,7 +574,7 @@ var chapter1_questions = {
             "answer": "Image Height; Vertical Image Resolution"
         },
         {
-            "id": "cts2_28",
+            "id": "cts1_53",
             "question": "The Farthest Viewer Distance for BDM depends on (choose the best answer):",
             "options": [
                 "Image Height and Viewing Category",
@@ -585,7 +585,7 @@ var chapter1_questions = {
             "answer": "Image Height and Viewing Category"
         },
         {
-            "id": "cts2_29",
+            "id": "cts1_54",
             "question": "A screen is 72 inches (1829 mm) wide and the throw ratio is 2.1:1. How far from the screen should the projector be placed? Express your answer in inches or millimeters.",
             "options": [
                 "34.3 in",
@@ -596,7 +596,7 @@ var chapter1_questions = {
             "answer": "151.2 in"
         },
         {
-            "id": "cts2_30",
+            "id": "cts1_55",
             "question": "A screen is 125 inches (3175 mm) wide and the throw ratio is 2.3:1. How far from the screen should the projector be placed? Express your answer in inches or millimeters",
             "options": [
                 "54.3 in",
@@ -607,7 +607,7 @@ var chapter1_questions = {
             "answer": "287.5 in"
         },
         {
-            "id": "cts2_31",
+            "id": "cts1_56",
             "question": "What is a projector's throw distance?",
             "options": [
                 "The maximum size of the projected image",
@@ -618,7 +618,7 @@ var chapter1_questions = {
             "answer": "the distance between a location on the projector to the screen for a given image size"
         },
         {
-            "id": "cts2_32",
+            "id": "cts1_57",
             "question": "Estimating throw distance requires two values: _____ and _____",
             "options": [
                 "screen height; lens aperture",
@@ -629,7 +629,7 @@ var chapter1_questions = {
             "answer": "screen width; throw ratio"
         },
         {
-            "id": "cts2_33",
+            "id": "cts1_58",
             "question": "The screen is 90 inches (2286 mm) wide and the lens ratio is 2.0:1. How far from the screen should the projector be placed?",
             "options": [
                 "45 in",
@@ -640,7 +640,7 @@ var chapter1_questions = {
             "answer": "180 in"
         },
         {
-            "id": "cts2_34",
+            "id": "cts1_59",
             "question": "The screen is 120 inches (3048 mm) wide and the lens ratio is 2.5:1. How far from the screen should the projector be placed?",
             "options": [
                 "48 in",
@@ -651,7 +651,7 @@ var chapter1_questions = {
             "answer": "300 in"
         },
         {
-            "id": "cts2_35",
+            "id": "cts1_60",
             "question": "What is the main reason for conducting a Needs Analysis?",
             "options": [
                 "To finalize the equipment list for purchase",
@@ -662,7 +662,7 @@ var chapter1_questions = {
             "answer": "To identify the activities that the end-users will perform, and the functions that the AV system should provide to support these activities"
         },
         {
-            "id": "cts2_36",
+            "id": "cts1_61",
             "question": "The Needs Analysis determines:",
             "options": [
                 "The manufacturer of the equipment",
@@ -673,7 +673,7 @@ var chapter1_questions = {
             "answer": "The nature of the system; The infrastructure; The system budget"
         },
         {
-            "id": "cts2_37",
+            "id": "cts1_62",
             "question": "How does the AV team use information about any identified constraints to the AV design and installation tasks?",
             "options": [
                 "They are used to increase the project budget",
@@ -684,7 +684,7 @@ var chapter1_questions = {
             "answer": "The constraints identified in the needs assessment are considered in the design plan"
         },
         {
-            "id": "cts2_38",
+            "id": "cts1_63",
             "question": "What is the most valuable source of information when defining the needs for an AV system?",
             "options": [
                 "Manufacturer product brochures",
@@ -695,7 +695,7 @@ var chapter1_questions = {
             "answer": "End user descriptions of the tasks and applications the AV system will support"
         },
         {
-            "id": "cts2_39",
+            "id": "cts1_64",
             "question": "What are the four teams that comprise the overall Project Team?",
             "options": [
                 "Sales, Engineering, Programming, and Installation",
@@ -706,7 +706,7 @@ var chapter1_questions = {
             "answer": "Owner, Design, Installation, and Management"
         },
         {
-            "id": "cts2_40",
+            "id": "cts1_65",
             "question": "Who would belong to the Design team?",
             "options": [
                 "The end-user and facility manager",
@@ -717,7 +717,7 @@ var chapter1_questions = {
             "answer": "Anyone with Consultant in their title except the moving consultant"
         },
         {
-            "id": "cts2_41",
+            "id": "cts1_66",
             "question": "Which groups make up the Management Team?",
             "options": [
                 "Developer, Construction Manager, and Building Management Agency",
@@ -728,7 +728,7 @@ var chapter1_questions = {
             "answer": "Developer, Construction Manager, and Building Management Agency"
         },
         {
-            "id": "cts2_42",
+            "id": "cts1_67",
             "question": "The End-User, Facility Manager and Building Committee comprise which team within the Project Team?",
             "options": [
                 "Design Team",
@@ -739,7 +739,7 @@ var chapter1_questions = {
             "answer": "Owner"
         },
         {
-            "id": "cts2_43",
+            "id": "cts1_68",
             "question": "Which group represent the generic roles that are important to the Project process?",
             "options": [
                 "Architects, Electricians, and Carpenters",
@@ -750,7 +750,7 @@ var chapter1_questions = {
             "answer": "Project Managers, Designers and Installers"
         },
         {
-            "id": "cts2_44",
+            "id": "cts1_69",
             "question": "Which project characteristics must be considered in order to determine which method is best suited for a particular project?",
             "options": [
                 "The brand of equipment being used",
@@ -761,7 +761,7 @@ var chapter1_questions = {
             "answer": "Schedule, Size, Type, Complexity, and Procurement Requirements"
         },
         {
-            "id": "cts2_45",
+            "id": "cts1_70",
             "question": "What is an important aspect of funding that has a direct impact on the project process and design/installation?",
             "options": [
                 "Marketing Budget",
@@ -772,7 +772,7 @@ var chapter1_questions = {
             "answer": "Technical Support Funding"
         },
         {
-            "id": "cts2_46",
+            "id": "cts1_71",
             "question": "Whether a construction project is large or small, which milestones must be achieved in a typical schedule?",
             "options": [
                 "Programming, Building Design, AV Bid, and Move-In",
@@ -783,7 +783,7 @@ var chapter1_questions = {
             "answer": "Programming, Building Design, AV Bid, and Move-In"
         },
         {
-            "id": "cts2_47",
+            "id": "cts1_72",
             "question": "What type of project is a typical Consultant-Led Design-Bid-Build contract structure good for?",
             "options": [
                 "Small, quick-turnaround projects",
@@ -794,7 +794,7 @@ var chapter1_questions = {
             "answer": "Long term projects with extended project cycles"
         },
         {
-            "id": "cts2_48",
+            "id": "cts1_73",
             "question": "What is the risk in using an OFE/Integrator Installed contract structure?",
             "options": [
                 "The project will likely finish ahead of schedule",
@@ -805,7 +805,7 @@ var chapter1_questions = {
             "answer": "System and infrastructure design and facility functionality may suffer"
         },
         {
-            "id": "cts2_49",
+            "id": "cts1_74",
             "question": "What are some of the important project scope and size considerations in selecting an AV provider?",
             "options": [
                 "The provider's preference for certain brands",
@@ -816,7 +816,7 @@ var chapter1_questions = {
             "answer": "Financial Stability, Current Workload, and Company Credentials"
         },
         {
-            "id": "cts2_50",
+            "id": "cts1_75",
             "question": "What type of document typically includes Project Size Requirements, Corporate Profile, Team Personnel, and Warranty Response Time?",
             "options": [
                 "RFP (Request for Proposal)",
@@ -827,7 +827,7 @@ var chapter1_questions = {
             "answer": "RFQ (Request for Quotation)"
         },
         {
-            "id": "cts2_51",
+            "id": "cts1_76",
             "question": "What is a significant difference between the Two-Envelope Bid Method and the Qualifications-Based Selection Method?",
             "options": [
                 "Price is the only factor considered in both methods",
@@ -838,7 +838,7 @@ var chapter1_questions = {
             "answer": "Negotiate with the highest ranking firm to finalize the contract"
         },
         {
-            "id": "cts2_52",
+            "id": "cts1_77",
             "question": "What is one of the disadvantages of contracting the AV integrator to the electrical subcontractor?",
             "options": [
                 "Faster communication and decision-making",
@@ -849,7 +849,7 @@ var chapter1_questions = {
             "answer": "More layers of responsibility and communication"
         },
         {
-            "id": "cts2_53",
+            "id": "cts1_78",
             "question": "Under what circumstances would you likely use an A305-1986 form?",
             "options": [
                 "To create a final bill of materials",
@@ -860,7 +860,7 @@ var chapter1_questions = {
             "answer": "Scoring responses to an RFQ"
         },
         {
-            "id": "cts2_54",
+            "id": "cts1_79",
             "question": "What is the ideal way to contract an AV integrator?",
             "options": [
                 "As a subcontractor to the furniture vendor",
@@ -871,7 +871,7 @@ var chapter1_questions = {
             "answer": "Directly to the Owner"
         },
         {
-            "id": "cts2_55",
+            "id": "cts1_80",
             "question": "The process of identifying the activities that end-users need to perform, and developing the functional descriptions of your systems is referred to as:?",
             "options": [
                 "System Commissioning",
@@ -882,7 +882,7 @@ var chapter1_questions = {
             "answer": "Needs Analysis"
         },
         {
-            "id": "cts2_56",
+            "id": "cts1_81",
             "question": "What is the main task of the third Step of the Program Phase of a Project?",
             "options": [
                 "Ordering equipment",
@@ -893,7 +893,7 @@ var chapter1_questions = {
             "answer": "Conducting program meetings"
         },
         {
-            "id": "cts2_57",
+            "id": "cts1_82",
             "question": "What should be included in the written Program Report?",
             "options": [
                 "The final programming code for the control system",
@@ -904,7 +904,7 @@ var chapter1_questions = {
             "answer": "A conceptual and functional system description"
         },
         {
-            "id": "cts2_58",
+            "id": "cts1_83",
             "question": "A client requires a new boardroom. The sales person and engineer are sent to the premises to measure the facility and talk to the client. At this stage they should be performing a_",
             "options": [
                 "System Commissioning",
@@ -915,7 +915,7 @@ var chapter1_questions = {
             "answer": "Needs Analysis"
         },
         {
-            "id": "cts2_59",
+            "id": "cts1_84",
             "question": "Sightlines for audience viewing in a given presentation space can be improved by:",
             "options": [
                 "Using a smaller screen",
@@ -926,7 +926,7 @@ var chapter1_questions = {
             "answer": "Providing a sloped, or stepped, seating arrangement"
         },
         {
-            "id": "cts2_60",
+            "id": "cts1_85",
             "question": "AV professionals determine the end user's needs by examining three things: the required applications, the tasks, and the:",
             "options": [
                 "Available budget",
@@ -937,7 +937,7 @@ var chapter1_questions = {
             "answer": "Functions to support the applications"
         },
         {
-            "id": "cts2_61",
+            "id": "cts1_86",
             "question": "When working with a client to design an AV solution for a new conference center, the client requests a detailed budget for the equipment and installation. What phase is the project in?",
             "options": [
                 "Program phase",
@@ -948,7 +948,7 @@ var chapter1_questions = {
             "answer": "Design phase"
         },
         {
-            "id": "cts2_62",
+            "id": "cts1_87",
             "question": "The HDTV aspect ratio is equal to which of the following?",
             "options": [
                 "1.33:1",
@@ -959,7 +959,7 @@ var chapter1_questions = {
             "answer": "1.78:1"
         },
         {
-            "id": "cts2_63",
+            "id": "cts1_88",
             "question": "Please select the appropriate resolution for SXGA.",
             "options": [
                 "1024 x 768",
@@ -970,7 +970,7 @@ var chapter1_questions = {
             "answer": "1280 x 1024"
         },
         {
-            "id": "cts2_64",
+            "id": "cts1_89",
             "question": "It is important to consider Polar Patterns when",
             "options": [
                 "Choosing a video display",
@@ -981,7 +981,7 @@ var chapter1_questions = {
             "answer": "Selecting Microphones for use at live events"
         },
         {
-            "id": "cts2_65",
+            "id": "cts1_90",
             "question": "Which phase comes first in a project?",
             "options": [
                 "The Design Phase",
@@ -992,7 +992,7 @@ var chapter1_questions = {
             "answer": "The Program Phase"
         },
         {
-            "id": "cts2_66",
+            "id": "cts1_91",
             "question": "Any sound reinforcement system consists of two equal parts: the electronic system used to manipulate the audio signal and",
             "options": [
                 "The power distribution system",
@@ -1003,7 +1003,7 @@ var chapter1_questions = {
             "answer": "The acoustical environment"
         },
         {
-            "id": "cts2_67",
+            "id": "cts1_92",
             "question": "The ratio of image width to image height is defined as the",
             "options": [
                 "Resolution",
@@ -1014,7 +1014,7 @@ var chapter1_questions = {
             "answer": "Aspect ratio"
         },
         {
-            "id": "cts2_68",
+            "id": "cts1_93",
             "question": "A common technique for reducing the depth requirements of a rear projection space is",
             "options": [
                 "Using a short-throw lens",
@@ -1025,7 +1025,7 @@ var chapter1_questions = {
             "answer": "Folding the light path"
         },
         {
-            "id": "cts2_69",
+            "id": "cts1_94",
             "question": "Which type of front screen has a smooth non-gloss surface similar to a white sheet, provides good color rendition, and evenly disperses light?",
             "options": [
                 "Beaded",
@@ -1036,7 +1036,7 @@ var chapter1_questions = {
             "answer": "Matte"
         },
         {
-            "id": "cts2_70",
+            "id": "cts1_95",
             "question": "The maximum viewing distance for viewing a displayed image is based on the",
             "options": [
                 "Brightness of the projector",
@@ -1047,7 +1047,7 @@ var chapter1_questions = {
             "answer": "Amount of detail in the image"
         },
         {
-            "id": "cts2_71",
+            "id": "cts1_96",
             "question": "For good viewing, projected images should not be viewed at angles greater than _____ degrees off of the projection axis",
             "options": [
                 "15",
@@ -1058,7 +1058,7 @@ var chapter1_questions = {
             "answer": "45"
         },
         {
-            "id": "cts2_72",
+            "id": "cts1_97",
             "question": "Which two parameters play a key role during the initial assessment of an AV project?",
             "options": [
                 "Equipment brand and model numbers",
@@ -1069,7 +1069,7 @@ var chapter1_questions = {
             "answer": "Project schedule, Project Size"
         },
         {
-            "id": "cts2_73",
+            "id": "cts1_98",
             "question": "The more accurate means to estimate dimensions of a commercial space during a site inspection would be to?",
             "options": [
                 "Use the architectural drawings",
@@ -1080,7 +1080,7 @@ var chapter1_questions = {
             "answer": "Use a laser distance measurer"
         },
         {
-            "id": "cts2_74",
+            "id": "cts1_99",
             "question": "What type of interview questions will help a client become interested in a new or unfamiliar technology?",
             "options": [
                 "Closed-ended Questions",
@@ -1091,7 +1091,7 @@ var chapter1_questions = {
             "answer": "Leading Questions"
         },
         {
-            "id": "cts2_75",
+            "id": "cts1_100",
             "question": "As a courtesy before leaving the final needs analysis meeting, the customer should be advised about:",
             "options": [
                 "The installation team's schedule",
@@ -1102,7 +1102,7 @@ var chapter1_questions = {
             "answer": "When to expect the proposal"
         },
         {
-            "id": "cts2_76",
+            "id": "cts1_101",
             "question": "When establishing initial contact with a client, try to develop a relationship early on with the",
             "options": [
                 "IT helpdesk",
@@ -1113,7 +1113,7 @@ var chapter1_questions = {
             "answer": "Stake Holders"
         },
         {
-            "id": "cts2_77",
+            "id": "cts1_102",
             "question": "The process of creating an AV solution begins with",
             "options": [
                 "Ordering equipment",
@@ -1124,7 +1124,7 @@ var chapter1_questions = {
             "answer": "Performing a needs analysis"
         },
         {
-            "id": "cts2_78",
+            "id": "cts1_103",
             "question": "To maximize the quality of projected images in a presentation you should ensure:",
             "options": [
                 "The projector is set to its brightest possible mode",
@@ -1135,7 +1135,7 @@ var chapter1_questions = {
             "answer": "The ambient light is controlled in the presentation area"
         },
         {
-            "id": "cts2_79",
+            "id": "cts1_104",
             "question": "Using best practices, determine maximum viewer distance by multiplying the text height by:",
             "options": [
                 "100",
@@ -1146,7 +1146,7 @@ var chapter1_questions = {
             "answer": "150"
         },
         {
-            "id": "cts2_80",
+            "id": "cts1_105",
             "question": "During a site survey, the room appears to have a lot of reverberation present. What treatment could be recommended to improve the sound in the room?",
             "options": [
                 "Install more hard, reflective surfaces",
@@ -1157,7 +1157,7 @@ var chapter1_questions = {
             "answer": "Use more softer, diffuse surfaces"
         },
         {
-            "id": "cts2_81",
+            "id": "cts1_106",
             "question": "Direct coupled loudspeakers are usually listed by size, frequency response, power handling capacity, and",
             "options": [
                 "Color",
@@ -1168,7 +1168,7 @@ var chapter1_questions = {
             "answer": "Impedance"
         },
         {
-            "id": "cts2_82",
+            "id": "cts1_107",
             "question": "When developing an AV solution for a client, whose input is MOST crucial for determining system requirements?",
             "options": [
                 "The Architect",
@@ -1179,7 +1179,7 @@ var chapter1_questions = {
             "answer": "The End User"
         },
         {
-            "id": "cts2_83",
+            "id": "cts1_108",
             "question": "A fundamental step in supporting the end user's needs is",
             "options": [
                 "selecting the most expensive equipment",
@@ -1190,7 +1190,7 @@ var chapter1_questions = {
             "answer": "determining the overall function of the room or facility type"
         },
         {
-            "id": "cts2_84",
+            "id": "cts1_109",
             "question": "What constraints on working at a site need to be noted when collecting site information?",
             "options": [
                 "The brand of coffee available",
@@ -1201,7 +1201,7 @@ var chapter1_questions = {
             "answer": "Limitations on activities, time of day, parking & loading, noise"
         },
         {
-            "id": "cts2_85",
+            "id": "cts1_110",
             "question": "What factors impact acoustic quality in a given space or venue?",
             "options": [
                 "The color of the walls and ceiling",
@@ -1212,7 +1212,7 @@ var chapter1_questions = {
             "answer": "Dimensions and shape of the venue/room; reflected sound and ambient noise"
         },
         {
-            "id": "cts2_86",
+            "id": "cts1_111",
             "question": "How can you address ambient noise issues in a room?",
             "options": [
                 "Increase the volume of the audio system to overcome the noise",
@@ -1223,7 +1223,7 @@ var chapter1_questions = {
             "answer": "Use acoustically absorptive materials in the room."
         },
         {
-            "id": "cts2_87",
+            "id": "cts1_112",
             "question": "In the program phase, what must be determined to assure that a functional AV system scope will be created?",
             "options": [
                 "The specific equipment model numbers to be used",
@@ -1234,7 +1234,7 @@ var chapter1_questions = {
             "answer": "The specific functions, tasks, and applications of the presenter."
         },
         {
-            "id": "cts2_88",
+            "id": "cts1_113",
             "question": "In the program report phase of a site analysis what type of documentation is needed?",
             "options": [
                 "The final invoice for the project",
@@ -1245,7 +1245,7 @@ var chapter1_questions = {
             "answer": "Architectural and engineering drawings, industry standards, owner/end user information"
         },
         {
-            "id": "cts2_89",
+            "id": "cts1_114",
             "question": "How does the AV team present the program report to obtain client approval?",
             "options": [
                 "Email the report without a follow-up",
@@ -1256,7 +1256,7 @@ var chapter1_questions = {
             "answer": "Create a detailed meeting agenda and be sure to document client feedback & suggestions"
         },
         {
-            "id": "cts2_90",
+            "id": "cts1_115",
             "question": "How are lighting requirements determined for a given amount of space in a venue?",
             "options": [
                 "Lighting requirements are directly proportional to the distance from the source",
@@ -1267,7 +1267,7 @@ var chapter1_questions = {
             "answer": "As the distance from a light source is doubled, perceived illumination decreases by 75%"
         },
         {
-            "id": "cts2_91",
+            "id": "cts1_116",
             "question": "What should be included in an AV proposal for a client?",
             "options": [
                 "A vague description of the work to be done",
@@ -1278,7 +1278,7 @@ var chapter1_questions = {
             "answer": "Detailed description of all components, accessories, and all costs"
         },
         {
-            "id": "cts2_92",
+            "id": "cts1_117",
             "question": "In presenting a proposal for AV, what is necessary for a contract?",
             "options": [
                 "A verbal agreement and a handshake",
@@ -1289,7 +1289,7 @@ var chapter1_questions = {
             "answer": "Statement of specific work proposed, costs and payment schedule, delivery schedule"
         },
         {
-            "id": "cts2_93",
+            "id": "cts1_118",
             "question": "After hearing the vendors' Request for Proposal (RFP), how do you evaluate the vendor's proposal to determine the best value?",
             "options": [
                 "Always select the vendor with the lowest price",
@@ -1300,7 +1300,7 @@ var chapter1_questions = {
             "answer": "Consider the price, quality, approach, and ability of vendor to fulfill the contract"
         },
         {
-            "id": "cts2_94",
+            "id": "cts1_119",
             "question": "How is a contract awarded to a vendor after the vendor is determined to be the best value for a project?",
             "options": [
                 "The contract is automatically awarded to the lowest bidder",
@@ -1311,7 +1311,7 @@ var chapter1_questions = {
             "answer": "Use the RFP and vendor proposal, negotiate items needing clarification with contract clauses"
         },
         {
-            "id": "cts2_95",
+            "id": "cts1_120",
             "question": "In marketing, what is your AV Company's 'value proposition'?",
             "options": [
                 "The total value of all the equipment you sell",
@@ -1322,7 +1322,7 @@ var chapter1_questions = {
             "answer": "Product or service offering which makes your company better or different from others."
         },
         {
-            "id": "cts2_96",
+            "id": "cts1_121",
             "question": "How should you establish a marketing budget for your AV Company",
             "options": [
                 "Spend as little as possible on marketing",
@@ -1333,7 +1333,7 @@ var chapter1_questions = {
             "answer": "Set the marketing and advertising budget as a percentage of projected sales."
         },
         {
-            "id": "cts2_97",
+            "id": "cts1_122",
             "question": "What is one of the major considerations in creating an AV solution for an important historical site?",
             "options": [
                 "Using the newest and most visible technology",
@@ -1344,7 +1344,7 @@ var chapter1_questions = {
             "answer": "Preservation of the site"
         },
         {
-            "id": "cts2_98",
+            "id": "cts1_123",
             "question": "What are the 4 parts of the needs analysis pyramid",
             "options": [
                 "Budget, Timeline, Equipment, Labor",
@@ -1355,7 +1355,7 @@ var chapter1_questions = {
             "answer": "Needs, Applications, Tasks, Features and Functions"
         },
         {
-            "id": "cts2_99",
+            "id": "cts1_124",
             "question": "What is a need",
             "options": [
                 "A specific brand of equipment requested by the client",
@@ -1366,7 +1366,7 @@ var chapter1_questions = {
             "answer": "An essential function that must be part of an AV system"
         },
         {
-            "id": "cts2_100",
+            "id": "cts1_125",
             "question": "What is an Application",
             "options": [
                 "A software program installed on the control processor",
@@ -1377,7 +1377,7 @@ var chapter1_questions = {
             "answer": "An Activity or function that supports the end users need (Meeting or demo)"
         },
         {
-            "id": "cts2_101",
+            "id": "cts1_126",
             "question": "What is a task",
             "options": [
                 "A single line item on the project invoice",
@@ -1388,7 +1388,7 @@ var chapter1_questions = {
             "answer": "An Av System or process that supports the end users application (A display for a meeting)"
         },
         {
-            "id": "cts2_102",
+            "id": "cts1_127",
             "question": "What is a Function",
             "options": [
                 "A social gathering for the project team",
@@ -1399,7 +1399,7 @@ var chapter1_questions = {
             "answer": "the specific parts of a task (type ofdisplay, seating layout)"
         },
         {
-            "id": "cts2_103",
+            "id": "cts1_128",
             "question": "A room is going to be used to inform new hires about organizational procedures. What is the Application",
             "options": [
                 "Playing background music",
@@ -1410,7 +1410,7 @@ var chapter1_questions = {
             "answer": "Informing new hires"
         },
         {
-            "id": "cts2_104",
+            "id": "cts1_129",
             "question": "what is benchmarking?",
             "options": [
                 "The process of testing equipment on a workbench before installation",
@@ -1421,7 +1421,7 @@ var chapter1_questions = {
             "answer": "examining methods, techniques, and principles from peer organizations and facilities, which can be used as a basis for designing a new or renovated facility."
         },
         {
-            "id": "cts2_105",
+            "id": "cts1_130",
             "question": "What is the goal of Benchmarking",
             "options": [
                 "To determine the project's final cost",
@@ -1432,7 +1432,7 @@ var chapter1_questions = {
             "answer": "to identify the AV features and functions desired by the client."
         },
         {
-            "id": "cts2_106",
+            "id": "cts1_131",
             "question": "What is a program meeting?",
             "options": [
                 "A meeting to program the control system",
@@ -1443,7 +1443,7 @@ var chapter1_questions = {
             "answer": "program meeting gathers and exchanges the information necessary to determine which functions are required to support the end users' applications."
         },
         {
-            "id": "cts2_107",
+            "id": "cts1_132",
             "question": "What is the program report?",
             "options": [
                 "A final report on the profitability of the project",
@@ -1454,7 +1454,7 @@ var chapter1_questions = {
             "answer": "program report is a document that describes the client's specific needs, system purpose and functionality, and the designer's best estimate of probable cost, in a non-technical format for review and approval by the owner."
         },
         {
-            "id": "cts2_108",
+            "id": "cts1_133",
             "question": "What s the goal of an effective program meeting?",
             "options": [
                 "To finalize the equipment order",
@@ -1465,7 +1465,7 @@ var chapter1_questions = {
             "answer": "Gather and exchange the information necessary to determine which functions are required to support the end users' applications"
         },
         {
-            "id": "cts2_109",
+            "id": "cts1_134",
             "question": "The main purpose of the program report is to list the equipment and model numbers that will be used in the final system",
             "options": [
                 "True",
@@ -1476,7 +1476,7 @@ var chapter1_questions = {
             "answer": "False"
         },
         {
-            "id": "cts2_110",
+            "id": "cts1_135",
             "question": "A complete project documentation package includes:",
             "options": [
                 "Only the final invoice",
@@ -1487,7 +1487,7 @@ var chapter1_questions = {
             "answer": "Contract documents, Project specifications, Project drawings: architectural and system"
         },
         {
-            "id": "cts2_111",
+            "id": "cts1_136",
             "question": "What are contract documents",
             "options": [
                 "The user manuals for the equipment",
@@ -1498,7 +1498,7 @@ var chapter1_questions = {
             "answer": "include bid information, contractor qualification requirements, payment schedules, and points of contact."
         },
         {
-            "id": "cts2_112",
+            "id": "cts1_137",
             "question": "What are project specifications",
             "options": [
                 "The client's list of desired features",
@@ -1509,7 +1509,7 @@ var chapter1_questions = {
             "answer": "They are specifications for the project itself. Such as find details of the system."
         },
         {
-            "id": "cts2_113",
+            "id": "cts1_138",
             "question": "What is a section cut flag arrow",
             "options": [
                 "Indicates the location of a fire extinguisher",
@@ -1520,7 +1520,7 @@ var chapter1_questions = {
             "answer": "Shows the direction of the section drawing"
         },
         {
-            "id": "cts2_114",
+            "id": "cts1_139",
             "question": "What is a Detail Drawing",
             "options": [
                 "A drawing of the entire building floor plan",
@@ -1531,7 +1531,7 @@ var chapter1_questions = {
             "answer": "indicate small items that need magnified views in order to show how they must be installed."
         },
         {
-            "id": "cts2_115",
+            "id": "cts1_140",
             "question": "What is a section drawing",
             "options": [
                 "shows the space as if it was cut apart",
@@ -1542,7 +1542,7 @@ var chapter1_questions = {
             "answer": "shows the space as if it was cut apart"
         },
         {
-            "id": "cts2_116",
+            "id": "cts1_141",
             "question": "What is an Elevation drawing",
             "options": [
                 "A drawing showing the height of the building above sea level",
@@ -1553,7 +1553,7 @@ var chapter1_questions = {
             "answer": "is a drawing that looks at the environment from a front, side, or back view"
         },
         {
-            "id": "cts2_117",
+            "id": "cts1_142",
             "question": "What is a column line",
             "options": [
                 "A line in a spreadsheet detailing project costs",
@@ -1564,7 +1564,7 @@ var chapter1_questions = {
             "answer": "used to indicate the locations of columns, load-bearing walls, and other structural elements within the building layout,"
         },
         {
-            "id": "cts2_118",
+            "id": "cts1_143",
             "question": "What are match lines",
             "options": [
                 "Lines used to align video projectors in a blend",
@@ -1575,7 +1575,7 @@ var chapter1_questions = {
             "answer": "show how each sub-drawing matches to another page of the drawing."
         },
         {
-            "id": "cts2_119",
+            "id": "cts1_144",
             "question": "What is a reference flag?",
             "options": [
                 "A marker used to indicate the location of the main equipment rack",
@@ -1586,7 +1586,7 @@ var chapter1_questions = {
             "answer": "reference flag symbol on a drawing tells us to reference another drawing,"
         },
         {
-            "id": "cts2_120",
+            "id": "cts1_145",
             "question": "What are eleveation flags",
             "options": [
                 "Flags on a drawing indicating the height of the ceiling",
@@ -1597,7 +1597,7 @@ var chapter1_questions = {
             "answer": "plan drawings to indicate related elevation drawings."
         },
         {
-            "id": "cts2_121",
+            "id": "cts1_146",
             "question": "What are section cut flags",
             "options": [
                 "indicate which section drawing depicts a section of a master drawing in more detail, as shown in the picture.",
@@ -1608,7 +1608,7 @@ var chapter1_questions = {
             "answer": "indicate which section drawing depicts a section of a master drawing in more detail, as shown in the picture."
         },
         {
-            "id": "cts2_122",
+            "id": "cts1_147",
             "question": "The farthest viewer concept addresses which three factors?",
             "options": [
                 "Projector brightness, screen gain, and ambient light",
@@ -1619,7 +1619,7 @@ var chapter1_questions = {
             "answer": "Image height, viewer task, and distance"
         },
         {
-            "id": "cts2_123",
+            "id": "cts1_148",
             "question": "The primary goal of the farthest viewer formula is to ensure that",
             "options": [
                 "the screen is as large as possible",
@@ -1630,7 +1630,7 @@ var chapter1_questions = {
             "answer": "all viewers can interpret what is on the screen"
         },
         {
-            "id": "cts2_124",
+            "id": "cts1_149",
             "question": "Viewing tasks are broken down by what?",
             "options": [
                 "The age of the viewers",
@@ -1641,7 +1641,7 @@ var chapter1_questions = {
             "answer": "8 when the viewers will generally observe content. 6 when the viewers will inspect content with clues and generally observe content. 4 when the viewers will inspect content without clues."
         },
         {
-            "id": "cts2_125",
+            "id": "cts1_150",
             "question": "What is a work breakdown structure?",
             "options": [
                 "A diagram showing how to disassemble a piece of equipment for repair",
@@ -1652,7 +1652,7 @@ var chapter1_questions = {
             "answer": "a deliverable-oriented grouping of project elements which will ultimately organize and define the total scope of the project."
         },
         {
-            "id": "cts2_126",
+            "id": "cts1_151",
             "question": "What is a logic network diagram?",
             "options": [
                 "A schematic of a computer network's logical topology",
@@ -1663,7 +1663,7 @@ var chapter1_questions = {
             "answer": "used when negotiating with your client regarding what other tasks need to be done before you can begin your tasks"
         },
         {
-            "id": "cts2_127",
+            "id": "cts1_152",
             "question": "What is the main objective of evaluating the cost of completing an AV project?",
             "options": [
                 "To create the final invoice for the client",
@@ -1674,7 +1674,7 @@ var chapter1_questions = {
             "answer": "To determine if the AV company made money on the project"
         },
         {
-            "id": "cts2_128",
+            "id": "cts1_153",
             "question": "Screen gain is:",
             "options": [
                 "The increase in screen size when using a zoom lens",
@@ -1685,7 +1685,7 @@ var chapter1_questions = {
             "answer": "Is the ability of a screen to redirect projected light to the audience to make it appear brighter."
         },
         {
-            "id": "cts2_129",
+            "id": "cts1_154",
             "question": "Another way to signify an aspect ratio of 4:3 would be",
             "options": [
                 "1.78:1",
@@ -1696,7 +1696,7 @@ var chapter1_questions = {
             "answer": "1.33:1"
         },
         {
-            "id": "cts2_130",
+            "id": "cts1_155",
             "question": "The purpose of a written program report is to communicate",
             "options": [
                 "the final installation schedule",
@@ -1707,7 +1707,7 @@ var chapter1_questions = {
             "answer": "a functional system description"
         },
         {
-            "id": "cts2_131",
+            "id": "cts1_156",
             "question": "The program reports executive summary should contain a brief overview of the project and",
             "options": [
                 "A list of all equipment model numbers",
@@ -1718,7 +1718,7 @@ var chapter1_questions = {
             "answer": "Programming process"
         },
         {
-            "id": "cts2_132",
+            "id": "cts1_157",
             "question": "At the beginning of Program Phase which categories of existing documentation should be reviewed",
             "options": [
                 "The previous year's financial statements",
@@ -1729,7 +1729,7 @@ var chapter1_questions = {
             "answer": "Architectural, Organizational and Technical"
         },
         {
-            "id": "cts2_133",
+            "id": "cts1_158",
             "question": "The purpose of developing an AV system design package is to communicate the",
             "options": [
                 "Marketing plan for the new system",
@@ -1740,7 +1740,7 @@ var chapter1_questions = {
             "answer": "Intent of the design to the installers"
         },
         {
-            "id": "cts2_134",
+            "id": "cts1_159",
             "question": "Which team members best reflect the team of participants during the review step of an AV projects design phase",
             "options": [
                 "Salesperson and marketing manager",
@@ -1751,7 +1751,7 @@ var chapter1_questions = {
             "answer": "Architect, Owner, Construction manager and End user"
         },
         {
-            "id": "cts2_135",
+            "id": "cts1_160",
             "question": "What are the 5 parts to determining the End Users Needs",
             "options": [
                 "Budget, Timeline, Equipment, Labor, Profit",
@@ -1762,7 +1762,7 @@ var chapter1_questions = {
             "answer": "Talk to Stakeholders, Review Existing Documentation, Evaluate the Site Environment, Conduct Program meetings, Write the program report"
         },
         {
-            "id": "cts2_136",
+            "id": "cts1_161",
             "question": "What documentation should you get from Stakeholders",
             "options": [
                 "Their personal contact information",
@@ -1773,7 +1773,7 @@ var chapter1_questions = {
             "answer": "Engineering Drawings, Architectural Organizational project, Design manuals, best practices."
         },
         {
-            "id": "cts2_137",
+            "id": "cts1_162",
             "question": "What are the 5 parts of the Program Report",
             "options": [
                 "Introduction, Body, Conclusion, Appendix, Index",
@@ -1784,7 +1784,7 @@ var chapter1_questions = {
             "answer": "Executive Summary, System Descriptions, Infrastructure Considerations, Audio Visual Budgets, Additional Costs"
         },
         {
-            "id": "cts2_138",
+            "id": "cts1_163",
             "question": "The needs analysis determines:",
             "options": [
                 "The specific technicians assigned to the job",
@@ -1795,7 +1795,7 @@ var chapter1_questions = {
             "answer": "Nature of the System, Infrastructure, System Budget"
         },
         {
-            "id": "cts2_139",
+            "id": "cts1_164",
             "question": "How does the AV team use information about any identified constraints to the AV design and installation tasks?",
             "options": [
                 "To justify a higher project cost",
@@ -1806,7 +1806,7 @@ var chapter1_questions = {
             "answer": "To develop a work-around plan when these constraints will affect the design or installation tasks"
         },
         {
-            "id": "cts2_140",
+            "id": "cts1_165",
             "question": "The task level variable refers to",
             "options": [
                 "the skill level of the installer",
@@ -1817,7 +1817,7 @@ var chapter1_questions = {
             "answer": "what the observer is trying to see and understand"
         },
         {
-            "id": "cts2_141",
+            "id": "cts1_166",
             "question": "Purpose of an AV system",
             "options": [
                 "the communication task it helps accomplish",
@@ -1828,7 +1828,7 @@ var chapter1_questions = {
             "answer": "the communication task it helps accomplish"
         },
         {
-            "id": "cts2_142",
+            "id": "cts1_167",
             "question": "Control System",
             "options": [
                 "a system for managing project timelines and budgets",
@@ -1839,7 +1839,7 @@ var chapter1_questions = {
             "answer": "a subsystem that enables simplified operation of other complex systems such as an av or lighting system. Includes user interface, processor or computer, control equipment."
         },
         {
-            "id": "cts2_143",
+            "id": "cts1_168",
             "question": "Ergonomics",
             "options": [
                 "The study of economic principles in AV design",
@@ -1850,7 +1850,7 @@ var chapter1_questions = {
             "answer": "scientific study of the way people interact with a system."
         },
         {
-            "id": "cts2_144",
+            "id": "cts1_169",
             "question": "Closest viewer rule",
             "options": [
                 "no closer than 1X the screen's width",
@@ -1861,7 +1861,7 @@ var chapter1_questions = {
             "answer": "no closer than 1X the screen's width"
         },
         {
-            "id": "cts2_145",
+            "id": "cts1_170",
             "question": "Farthest viewer rule",
             "options": [
                 "No farther than 4X the screen's height",
@@ -1872,9 +1872,9 @@ var chapter1_questions = {
             "answer": "No farther than 8X the screen's height"
         },
         {
-            "id": "cts2_146",
+            "id": "cts1_171",
             "question": "What type of chart is displayed below? (activity/year/budget/actual)",
-            "image": "cts2_146.png",
+            "image": "cts1_171.png",
             "options": [
                 "gantt chart",
                 "pie chart",
