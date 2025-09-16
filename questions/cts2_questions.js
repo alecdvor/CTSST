@@ -1,1887 +1,1039 @@
-var chapter1_questions = {
+var cts2_questions = {
     "questions": [
         {
-            "id": "cts1_3",
-            "question": "0 dB SPL describes:",
-            "options": [
-                "the threshold of human hearing",
-                "complete silence",
-                "the noise floor of a typical room",
-                "the lowest frequency a human can hear"
-            ],
-            "answer": "the threshold of human hearing"
-        },
-        {
-            "id": "cts1_4",
-            "question": "What is a decibel?",
-            "options": [
-                "A unit for measuring the speed of sound",
-                "An absolute measure of electrical power",
-                "a logarithmic scale used to describe ratios with a large range of values",
-                "A linear scale for measuring acoustic energy"
-            ],
-            "answer": "a logarithmic scale used to describe ratios with a large range of values"
-        },
-        {
-            "id": "cts1_5",
-            "question": "An audio amplifier outputs 75 watts and then it is decreased to 50 watts. What is the change in decibels?",
-            "options": [
-                "Positive 1.8 dB",
-                "Negative 25 dB",
-                "Negative -1.8 dB",
-                "Positive 2.5 dB"
-            ],
-            "answer": "Negative -1.8 dB"
-        },
-        {
-            "id": "cts1_6",
-            "question": "How loud (in decibels) does a 60 Hz sound have to be for it to be audible?",
-            "options": [
-                "0 dB",
-                "20 dB",
-                "40 dB",
-                "60 dB"
-            ],
-            "answer": "40 dB"
-        },
-        {
-            "id": "cts1_7",
-            "question": "According to the equal loudness curve chart below, how loud does a 20 Hz sound have to be before it is audible?",
-            "image": "cts1_7.png",
-            "options": [
-                "20 dB",
-                "50 dB",
-                "70 dB",
-                "90 dB"
-            ],
-            "answer": "70 dB"
-        },
-        {
-            "id": "cts1_8",
-            "question": "'Weighting' a sound pressure level measurement accounts for differences in the way",
-            "options": [
-                "sound reflects off different surfaces",
-                "humans perceive different frequencies at a given listening level",
-                "microphone distance affects frequency response",
-                "atmospheric pressure changes with altitude"
-            ],
-            "answer": "humans perceive different frequencies at a given listening level"
-        },
-        {
-            "id": "cts1_9",
-            "question": "You measure the background noise level in a conference room at 40 dB SPL A-wtd. What is the target sound pressure level of the audio system?",
-            "options": [
-                "40",
-                "55",
-                "65",
-                "85"
-            ],
-            "answer": "65"
-        },
-        {
-            "id": "cts1_23",
-            "question": "An increase in voltage means an increase in _____ if the current remains the same",
-            "options": [
-                "resistance",
-                "power",
-                "capacitance",
-                "frequency"
-            ],
-            "answer": "resistance"
-        },
-        {
-            "id": "cts1_24",
-            "question": "The _____ in an electrical circuit is proportional to the applied _____",
-            "options": [
-                "resistance; power",
-                "wattage; impedance",
-                "current; voltage",
-                "frequency; amplitude"
-            ],
-            "answer": "current; voltage"
-        },
-        {
-            "id": "cts1_25",
-            "question": "As impedance increases and current remains constant, voltage",
-            "options": [
-                "decreases",
-                "stays the same",
-                "becomes alternating",
-                "increases"
-            ],
-            "answer": "increases"
-        },
-        {
-            "id": "cts1_26",
-            "question": "If the measured voltage in a circuit is 40 V, and the resistance is 8 ohms, what is the current?",
-            "options": [
-                "320A",
-                "0.2A",
-                "5A",
-                "48A"
-            ],
-            "answer": "5A"
-        },
-        {
-            "id": "cts1_27",
-            "question": "The relationship between current and _____ is inversely proportional.",
-            "options": [
-                "voltage",
-                "resistance",
-                "power",
-                "frequency"
-            ],
-            "answer": "resistance"
-        },
-        {
-            "id": "cts1_28",
-            "question": "Resistance _____ the flow of current.",
-            "options": [
-                "amplifies",
-                "has no effect on",
-                "reduces",
-                "rectifies"
-            ],
-            "answer": "reduces"
-        },
-        {
-            "id": "cts1_29",
-            "question": "If the measured current in a circuit is 5 A and the resistance is 8 ohms, what is the voltage?",
-            "options": [
-                "40V",
-                "1.6V",
-                "13V",
-                "0.625V"
-            ],
-            "answer": "40V"
-        },
-        {
-            "id": "cts1_30",
-            "question": "If the measured current is 10 A and the voltage is 120 V, what is the resistance in the circuit?",
-            "options": [
-                "1200 Ohms",
-                "12 Ohms",
-                "110 Ohms",
-                "0.083 Ohms"
-            ],
-            "answer": "12 Ohms"
-        },
-        {
-            "id": "cts1_31",
-            "question": "The current in a circuit is 0.5 A, and the voltage is measured at 9 V. What is the power?",
-            "options": [
-                "18 W",
-                "4.5 W",
-                "9.5 W",
-                "0.055 W"
-            ],
-            "answer": "4.5 W"
-        },
-        {
-            "id": "cts1_32",
-            "question": "The current in a circuit is measured at 1 A, and the resistance is 1 ohm. What is the voltage?",
-            "options": [
-                "1V",
-                "0V",
-                "2V",
-                "1W"
-            ],
-            "answer": "1V"
-        },
-        {
-            "id": "cts1_33",
-            "question": "Determine the wattage in a circuit measuring 120 volts with 15 amperes of current flow.",
-            "options": [
-                "8 W",
-                "1800 W",
-                "135 W",
-                "120 W"
-            ],
-            "answer": "1800 W"
-        },
-        {
-            "id": "cts1_34",
-            "question": "The relationship among voltage, current, and resistance is defined by the formula",
-            "options": [
-                "V = I + R",
-                "R = V * I",
-                "I=V/R",
-                "P = V * I"
-            ],
-            "answer": "I=V/R"
-        },
-        {
-            "id": "cts1_35",
-            "question": "If the measured power in a circuit is 5W, and the current is 1.5 amps, what is the voltage?",
-            "options": [
-                "7.5V",
-                "3.3V",
-                "0.3V",
-                "6.5V"
-            ],
-            "answer": "3.3V"
-        },
-        {
-            "id": "cts1_39",
-            "question": "The study of sound-wave motion and sound behavior is the science of",
-            "options": [
-                "Psychoacoustics",
-                "The Study of Acoustics",
-                "Electroacoustics",
-                "Audiology"
-            ],
-            "answer": "The Study of Acoustics"
-        },
-        {
-            "id": "cts1_40",
-            "question": "Which type of sound is most intelligible?",
-            "options": [
-                "Direct sound",
-                "Reflected sound",
-                "Reverberant sound",
-                "Diffused sound"
-            ],
-            "answer": "Direct sound"
-        },
-        {
-            "id": "cts1_41",
-            "question": "Sound that bounces off of many surfaces before reaching the listener is called _____ sound",
-            "options": [
-                "Direct",
-                "Early reflected",
-                "Reverberant",
-                "Absorbed"
-            ],
-            "answer": "Reverberant"
-        },
-        {
-            "id": "cts1_75",
-            "question": "Which of the following is defined as highly efficient?",
-            "options": [
-                "Incandescent Lamp",
-                "Tungsten-Halogen Lamp",
-                "LED Lamp",
-                "Fluorescent Lamp"
-            ],
-            "answer": "LED Lamp"
-        },
-        {
-            "id": "cts1_78",
-            "question": "When applying the inverse square law to measurements of sound pressure level,",
-            "options": [
-                "A doubling of distance correlates to a loss of 3dB.",
-                "A doubling of distance correlates to a loss of 6dB.",
-                "A halving of distance correlates to a loss of 6dB.",
-                "A doubling of distance correlates to a gain of 6dB."
-            ],
-            "answer": "A doubling of distance correlates to a loss of 6dB."
-        },
-        {
             "id": "cts2_1",
-            "question": "Your room design can accommodate a screen with a width of up to 80 inches wide. The screen height is reasonably unrestrained. Your client's video image source produces a 1920x1080 resolution. Which of the following screens could be a viable option in this scenario? Choose all that apply.",
+            "question": "What type of connection is pictured below? (wire under screw)",
+            "image": "cts2_1.png",
             "options": [
-                "A screen with an image width of 80 inches and a height of 60 inches (4:3 aspect ratio)",
-                "A screen with an image width of 80 inches and a height of 45 inches; A screen with an image width of 40 inches and a height of 22.5 inches",
-                "A screen with a diagonal of 80 inches",
-                "A screen with a width of 96 inches"
+                "A modular plug",
+                "A direct connection",
+                "An insulation-displacement connector (IDC)",
+                "A compression fitting"
             ],
-            "answer": "A screen with an image width of 80 inches and a height of 45 inches; A screen with an image width of 40 inches and a height of 22.5 inches"
+            "answer": "A direct connection"
         },
         {
             "id": "cts2_2",
-            "question": "What is the aspect ratio of a screen with a width of 108 inches (2743 mm) and a diagonal of 135 inches (3429)?",
+            "question": "A sound wave must be transduced into _____ before it can be transmitted through the audio signal path",
             "options": [
-                "4:3",
-                "16:9",
-                "16:10",
-                "1.25:1"
+                "acoustic energy",
+                "light energy",
+                "mechanical energy",
+                "electrical energy"
             ],
-            "answer": "4:3"
+            "answer": "electrical energy"
         },
         {
             "id": "cts2_3",
-            "question": "You require a 16:9 screen with a height of 60 inches (1524 mm). What will the screen's diagonal be?",
+            "question": "Modern RF wireless microphones allow the user to _____ frequencies to avoid interference.",
             "options": [
-                "106.7 inches",
-                "122.4 inches",
-                "115.2 inches",
-                "130.1 inches"
+                "boost",
+                "change",
+                "encrypt",
+                "compress"
             ],
-            "answer": "122.4 inches"
+            "answer": "change"
         },
         {
             "id": "cts2_4",
-            "question": "A 16:9 screen will be installed in a lecture hall. The screen's diagonal is 72 inches (1829 mm). What is its width?",
+            "question": "The simultaneous use of multiple wireless microphone systems requires",
             "options": [
-                "62.8 inches",
-                "35.3 inches",
-                "59.5 inches",
-                "72 inches"
+                "frequency coordination",
+                "using only one type of antenna",
+                "a dedicated power amplifier for each system",
+                "using lavalier microphones"
             ],
-            "answer": "62.8 inches"
+            "answer": "frequency coordination"
         },
         {
             "id": "cts2_5",
-            "question": "A screen's dimensions are 96 inches (2438 mm) x 96 inches (2438 mm). What width does an image on that screen need to be for a 16:9 aspect ratio image?",
+            "question": "In a dynamic microphone, there is a(n) _____ attached to a diaphragm and placed in a permanent magnetic field.",
             "options": [
-                "54 inches (1372 mm)",
-                "96 inches (2438 mm)",
-                "170.7 inches (4335 mm)",
-                "72 inches (1829 mm)"
+                "prepolarized plate",
+                "piezoelectric crystal",
+                "coil of wire",
+                "carbon element"
             ],
-            "answer": "96 inches (2438 mm)"
+            "answer": "coil of wire"
         },
         {
             "id": "cts2_6",
-            "question": "What viewing category applies to a space used for technical drawings?",
+            "question": "Operation of a condenser microphone requires _____ power.",
             "options": [
-                "Passive Viewing (PVM)",
-                "Basic Decision Making (BDM)",
-                "Analytical Decision Making (ADM)",
-                "Full Motion Video (FMV)"
+                "phantom",
+                "inductive",
+                "passive",
+                "alternating"
             ],
-            "answer": "Analytical Decision Making (ADM)"
+            "answer": "phantom"
         },
         {
             "id": "cts2_7",
-            "question": "What viewing category applies to a space used for PowerPoint presentations?",
+            "question": "Phantom power is the _____ required to power a condenser microphone.",
             "options": [
-                "Analytical Decision Making (ADM)",
-                "Basic Decision Making (BDM)",
-                "Passive Viewing (PVM)",
-                "Inspection Viewing (IVM)"
+                "AC power",
+                "battery power",
+                "remote power",
+                "induced power"
             ],
-            "answer": "Basic Decision Making (BDM)"
+            "answer": "remote power"
         },
         {
             "id": "cts2_8",
-            "question": "What Viewing Category applies to a space used for medical imagery?",
+            "question": "Which of the following best describes an electret, when used in a microphone?",
             "options": [
-                "Basic Decision Making (BDM)",
-                "Analytical Decision Making (ADM)",
-                "General Viewing (GVM)",
-                "Entertainment Viewing (EVM)"
+                "A type of ribbon material",
+                "A dynamic coil assembly",
+                "Prepolarized material",
+                "A ceramic diaphragm"
             ],
-            "answer": "Analytical Decision Making (ADM)"
+            "answer": "Prepolarized material"
         },
         {
             "id": "cts2_9",
-            "question": "What Viewing Category applies to a space used for word processing and spreadsheets?",
+            "question": "_____ is not a necessary specification for a microphone.",
             "options": [
-                "Analytical Decision Making (ADM)",
-                "Entertainment Viewing (EVM)",
-                "Passive Viewing (PVM)",
-                "Basic Decision Making (BDM)"
+                "Frequency response",
+                "Polar pattern",
+                "Maximum SPL",
+                "Input impedance"
             ],
-            "answer": "Basic Decision Making (BDM)"
+            "answer": "Input impedance"
         },
         {
             "id": "cts2_10",
-            "question": "What viewing category applies to a space used for word processing and technical drawings?",
+            "question": "A -58 dBu would be a typical signal level for a(n)",
             "options": [
-                "Only ADM",
-                "Only BDM",
-                "Both ADM and BDM",
-                "Neither ADM nor BDM"
+                "microphone",
+                "power amplifier",
+                "line-level source",
+                "loudspeaker"
             ],
-            "answer": "Both ADM and BDM"
+            "answer": "microphone"
         },
         {
             "id": "cts2_11",
-            "question": "Calculate the image height for a 2 percent element height (round to the nearest inch or millimeter):",
+            "question": "An audio signal is an _____ representation of a sound",
             "options": [
-                "50 in",
-                "84 in",
-                "100 in",
-                "120 in"
+                "Acoustic",
+                "Digital",
+                "Electrical",
+                "Mechanical"
             ],
-            "answer": "84 in"
+            "answer": "Electrical"
         },
         {
             "id": "cts2_12",
-            "question": "Calculate the image height for a 3 percent element height (round to the nearest inch or millimeter):",
+            "question": "Sound waves have a time relationship to each other known as",
             "options": [
-                "33 in",
-                "67 in",
-                "56 in",
-                "75 in"
+                "Frequency",
+                "Amplitude",
+                "Phase",
+                "Wavelength"
             ],
-            "answer": "56 in"
+            "answer": "Phase"
         },
         {
             "id": "cts2_13",
-            "question": "Calculate the image height for a 4 percent element height (round to the nearest inch or millimeter):",
+            "question": "When sound waves are 180 degrees out of phase what happens?",
             "options": [
-                "25 in",
-                "42 in",
-                "50 in",
-                "60 in"
+                "Constructive interference",
+                "Phase cancellation",
+                "A doubling of amplitude",
+                "A shift in frequency"
             ],
-            "answer": "42 in"
+            "answer": "Phase cancellation"
         },
         {
             "id": "cts2_14",
-            "question": "The benefits of DISCAS include (Check all that apply):",
+            "question": "All sounds start with physical motion, such as vibrating string. This causes adjacent air molecules to push together, or",
             "options": [
-                "It mandates specific screen sizes",
-                "It only applies to 4:3 aspect ratios",
-                "It is a proprietary, paid standard",
-                "Are independently confirmed and ratified; Takes different resolutions into account; Takes different aspect ratios into account"
+                "Compress",
+                "Rarefy",
+                "Refract",
+                "Amplify"
             ],
-            "answer": "Are independently confirmed and ratified; Takes different resolutions into account; Takes different aspect ratios into account"
+            "answer": "Compress"
         },
         {
             "id": "cts2_15",
-            "question": "The most common type of Viewing Category is",
+            "question": "A wavelength is measured at the starting points of two consecutive",
             "options": [
-                "Analytical Decision Making (ADM)",
-                "Basic Decision Making (BDM)",
-                "Passive Viewing (PVM)",
-                "Inspection Viewing (IVM)"
+                "Amplitudes",
+                "Cycles",
+                "Phases",
+                "Frequencies"
             ],
-            "answer": "Basic Decision Making (BDM)"
+            "answer": "Cycles"
         },
         {
             "id": "cts2_16",
-            "question": "In a BDM environment, viewers are more concerned with",
+            "question": "Hertz is the unit of measure for",
             "options": [
-                "fine print and details",
-                "color accuracy above all",
-                "overall content than detail",
-                "the brand of the display"
+                "Amplitude",
+                "Wavelength",
+                "Frequency",
+                "Loudness"
             ],
-            "answer": "overall content than detail"
+            "answer": "Frequency"
         },
         {
             "id": "cts2_17",
-            "question": "The term '% element height' refers to",
+            "question": "One Hertz is equivalent to",
             "options": [
-                "the height of the screen mount relative to the floor",
-                "the percentage of the screen that is viewable",
-                "the height of the element being viewed expressed in relation to the overall image height",
-                "the vertical resolution of the display"
+                "One decibel per second",
+                "One cycle per second",
+                "One watt per second",
+                "One volt per second"
             ],
-            "answer": "the height of the element being viewed expressed in relation to the overall image height"
+            "answer": "One cycle per second"
         },
         {
             "id": "cts2_18",
-            "question": "DISCAS defines the minimum distance one can be to a display as the _____ and the maximum distance one can be from a display as _____",
+            "question": "An R-Y, B-Y, Y video signal is also known as a(n) _____ video signal",
             "options": [
-                "Farthest Viewer; Closest Viewer",
-                "Closest Viewer; Farthest Viewer",
-                "Optimal Viewer; Furthest Viewer",
-                "Near Field; Far Field"
+                "Composite",
+                "S-Video",
+                "Component",
+                "RGBHV"
             ],
-            "answer": "Closest Viewer; Farthest Viewer"
+            "answer": "Component"
         },
         {
             "id": "cts2_19",
-            "question": "An element is (Choose the best answer)",
+            "question": "Which of the following incorporates color difference signals?",
             "options": [
-                "a single pixel on a display",
-                "a single character of text",
-                "the smallest physical component of a screen",
-                "a group of pixels conveying an item of information"
+                "Y, R-Y, B-Y",
+                "Y/C",
+                "RGB",
+                "CVBS"
             ],
-            "answer": "a group of pixels conveying an item of information"
+            "answer": "Y, R-Y, B-Y"
         },
         {
             "id": "cts2_20",
-            "question": "DISCAS addresses the following viewing categories (check all that apply):",
+            "question": "In a video system, using a single electronic reference for timing of all the connected equipment is called",
             "options": [
-                "Passive Viewing; Entertainment Viewing",
-                "Basic Decision Making; Analytical Decision Making",
-                "Commercial Signage; Residential Cinema",
-                "Medical Imaging; Architectural Design"
+                "Framelock",
+                "Genlock",
+                "Sync generation",
+                "Time base correction"
             ],
-            "answer": "Basic Decision Making; Analytical Decision Making"
+            "answer": "Genlock"
         },
         {
             "id": "cts2_21",
-            "question": "If an intended viewer needs to distinguish the finest details displayed, the designer/assessor should use the _____ Viewing Category.",
+            "question": "Which device corrects for jitter in an analog video signal?",
             "options": [
-                "Analytical Decision Making",
-                "Basic Decision Making",
-                "Passive Decision Making",
-                "General Viewing"
+                "Distribution amplifier",
+                "Scaler",
+                "Sync generator",
+                "Time base Corrector"
             ],
-            "answer": "Analytical Decision Making"
+            "answer": "Time base Corrector"
         },
         {
             "id": "cts2_22",
-            "question": "There is a Closest Viewer calculation for ADM.",
+            "question": "In a composite video signal, what determines the brightness?",
             "options": [
-                "TRUE",
-                "FALSE",
-                "Only for resolutions above 1080p",
-                "Only for screens larger than 100 inches"
+                "Phase",
+                "Frequency",
+                "Amplitude",
+                "Color burst"
             ],
-            "answer": "FALSE"
+            "answer": "Amplitude"
         },
         {
             "id": "cts2_23",
-            "question": "No viewing position in the horizontal plane should exceed _____ degrees from the opposite perpendicular edge of the displayed image.",
+            "question": "Specialized devices that display the color hue information in the video signal are called",
             "options": [
-                "30",
-                "45",
-                "60",
-                "90"
+                "Waveform monitors",
+                "Vectorscopes",
+                "Oscilloscopes",
+                "Pattern generators"
             ],
-            "answer": "60"
+            "answer": "Vectorscopes"
         },
         {
             "id": "cts2_24",
-            "question": "An elevation view is a required drawing for ADM.",
+            "question": "Which connector has a solid center pin with an outside sleeve and creates a pressure-fit type connection with its mate?",
+            "options": [
+                "BNC",
+                "F-Type",
+                "RCA",
+                "XLR"
+            ],
+            "answer": "RCA"
+        },
+        {
+            "id": "cts2_25",
+            "question": "A cable with one conductor and a shield is",
+            "options": [
+                "Balanced",
+                "Unbalanced",
+                "Twisted-pair",
+                "Coaxial"
+            ],
+            "answer": "Unbalanced"
+        },
+        {
+            "id": "cts2_26",
+            "question": "A _____ bit display will display 65,536 colors.",
+            "options": [
+                "8",
+                "16",
+                "24",
+                "32"
+            ],
+            "answer": "16"
+        },
+        {
+            "id": "cts2_27",
+            "question": "An 8-bit digital word is called a",
+            "options": [
+                "Bit",
+                "Nibble",
+                "Word",
+                "Byte"
+            ],
+            "answer": "Byte"
+        },
+        {
+            "id": "cts2_28",
+            "question": "Digital signals are a stream of",
+            "options": [
+                "Analog waveforms",
+                "Sine waves",
+                "1's and 0's",
+                "Voltages and currents"
+            ],
+            "answer": "1's and 0's"
+        },
+        {
+            "id": "cts2_29",
+            "question": "The process of adding video and/or audio signals to an existing signal on a predetermined carrier frequency is called",
+            "options": [
+                "Demodulation",
+                "Modulation",
+                "Multiplexing",
+                "Encoding"
+            ],
+            "answer": "Modulation"
+        },
+        {
+            "id": "cts2_30",
+            "question": "As the bandwidth of a display system increases, the potential resolution of the images is",
+            "options": [
+                "Decreased",
+                "Increased",
+                "Unaffected",
+                "Inverted"
+            ],
+            "answer": "Increased"
+        },
+        {
+            "id": "cts2_31",
+            "question": "In a cable, the dielectric",
+            "options": [
+                "Carries the signal",
+                "Provides grounding",
+                "Reduces interference",
+                "Insulates and separates two conductors"
+            ],
+            "answer": "Insulates and separates two conductors"
+        },
+        {
+            "id": "cts2_32",
+            "question": "The flow of electrons through a conductor is called",
+            "options": [
+                "Voltage",
+                "Resistance",
+                "Current",
+                "Power"
+            ],
+            "answer": "Current"
+        },
+        {
+            "id": "cts2_33",
+            "question": "When comparing the relationship of current to voltage and resistance, current is:",
+            "options": [
+                "Directly proportional to the voltage and inversely proportional resistance.",
+                "Inversely proportional to the voltage and directly proportional to resistance.",
+                "Directly proportional to both voltage and resistance.",
+                "Inversely proportional to both voltage and resistance."
+            ],
+            "answer": "Directly proportional to the voltage and inversely proportional resistance."
+        },
+        {
+            "id": "cts2_34",
+            "question": "Electricity takes the path of least resistance.",
             "options": [
                 "TRUE",
                 "FALSE",
-                "Only for rear-projection systems",
-                "Only if the screen is ceiling mounted"
+                "Only in AC circuits",
+                "Only in DC circuits"
             ],
             "answer": "FALSE"
         },
         {
-            "id": "cts2_25",
-            "question": "There is a Closest Viewer for BDM.",
-            "options": [
-                "TRUE",
-                "FALSE",
-                "Only for interactive displays",
-                "Only in rooms with tiered seating"
-            ],
-            "answer": "TRUE"
-        },
-        {
-            "id": "cts2_26",
-            "question": "DISCAS calculations must use consistent units.",
-            "options": [
-                "TRUE",
-                "FALSE",
-                "Only the metric system is allowed",
-                "Imperial and metric units can be mixed"
-            ],
-            "answer": "TRUE"
-        },
-        {
-            "id": "cts2_27",
-            "question": "The Farthest Viewer distance for ADM depends on (select all that apply):",
-            "options": [
-                "Screen Width; Horizontal Image Resolution",
-                "Ambient Light Level; Screen Gain",
-                "Image Height; Vertical Image Resolution",
-                "Projector Lumens; Contrast Ratio"
-            ],
-            "answer": "Image Height; Vertical Image Resolution"
-        },
-        {
-            "id": "cts2_28",
-            "question": "The Farthest Viewer Distance for BDM depends on (choose the best answer):",
-            "options": [
-                "Image Height and Viewing Category",
-                "Screen Width and Projector Throw Ratio",
-                "Vertical Resolution and Pixel Pitch",
-                "Ambient Light and Screen Material"
-            ],
-            "answer": "Image Height and Viewing Category"
-        },
-        {
-            "id": "cts2_29",
-            "question": "A screen is 72 inches (1829 mm) wide and the throw ratio is 2.1:1. How far from the screen should the projector be placed? Express your answer in inches or millimeters.",
-            "options": [
-                "34.3 in",
-                "72 in",
-                "151.2 in",
-                "172.1 in"
-            ],
-            "answer": "151.2 in"
-        },
-        {
-            "id": "cts2_30",
-            "question": "A screen is 125 inches (3175 mm) wide and the throw ratio is 2.3:1. How far from the screen should the projector be placed? Express your answer in inches or millimeters",
-            "options": [
-                "54.3 in",
-                "125 in",
-                "287.5 in",
-                "317.5 in"
-            ],
-            "answer": "287.5 in"
-        },
-        {
-            "id": "cts2_31",
-            "question": "What is a projector's throw distance?",
-            "options": [
-                "The maximum size of the projected image",
-                "the distance between a location on the projector to the screen for a given image size",
-                "The brightness of the projector in lumens",
-                "The diagonal measurement of the projector's lens"
-            ],
-            "answer": "the distance between a location on the projector to the screen for a given image size"
-        },
-        {
-            "id": "cts2_32",
-            "question": "Estimating throw distance requires two values: _____ and _____",
-            "options": [
-                "screen height; lens aperture",
-                "screen width; throw ratio",
-                "diagonal size; lumen output",
-                "projector weight; ceiling height"
-            ],
-            "answer": "screen width; throw ratio"
-        },
-        {
-            "id": "cts2_33",
-            "question": "The screen is 90 inches (2286 mm) wide and the lens ratio is 2.0:1. How far from the screen should the projector be placed?",
-            "options": [
-                "45 in",
-                "90 in",
-                "180 in",
-                "270 in"
-            ],
-            "answer": "180 in"
-        },
-        {
-            "id": "cts2_34",
-            "question": "The screen is 120 inches (3048 mm) wide and the lens ratio is 2.5:1. How far from the screen should the projector be placed?",
-            "options": [
-                "48 in",
-                "120 in",
-                "240 in",
-                "300 in"
-            ],
-            "answer": "300 in"
-        },
-        {
             "id": "cts2_35",
-            "question": "What is the main reason for conducting a Needs Analysis?",
+            "question": "What type of connector is this?",
+            "image": "cts2_35.png",
             "options": [
-                "To finalize the equipment list for purchase",
-                "To create a detailed installation schedule",
-                "To identify the activities that the end-users will perform, and the functions that the AV system should provide to support these activities",
-                "To determine the final cost of the project"
+                "BNC",
+                "RCA",
+                "F-Type",
+                "HDMI"
             ],
-            "answer": "To identify the activities that the end-users will perform, and the functions that the AV system should provide to support these activities"
+            "answer": "BNC"
         },
         {
             "id": "cts2_36",
-            "question": "The Needs Analysis determines:",
+            "question": "Bluetooth technology can be useful in AV systems because it",
             "options": [
-                "The manufacturer of the equipment",
-                "The specific software versions to be used",
-                "The nature of the system; The infrastructure; The system budget",
-                "The daily work schedule for the installers"
+                "Provides high-bandwidth video transmission",
+                "Allows for long-distance audio streaming over 100 meters",
+                "Replaces all wired network connections",
+                "Allows additional connections for control of devices."
             ],
-            "answer": "The nature of the system; The infrastructure; The system budget"
+            "answer": "Allows additional connections for control of devices."
         },
         {
             "id": "cts2_37",
-            "question": "How does the AV team use information about any identified constraints to the AV design and installation tasks?",
+            "question": "Composite video is made",
             "options": [
-                "They are used to increase the project budget",
-                "The constraints identified in the needs assessment are considered in the design plan",
-                "These constraints are typically ignored if they are minor",
-                "They are passed to the client to resolve independently"
+                "by separating the red, green, and blue signals",
+                "by keeping the brightness and color signals on separate wires",
+                "by using a high-definition digital interface",
+                "by combining the luminance and chroma information onto one cable"
             ],
-            "answer": "The constraints identified in the needs assessment are considered in the design plan"
+            "answer": "by combining the luminance and chroma information onto one cable"
         },
         {
             "id": "cts2_38",
-            "question": "What is the most valuable source of information when defining the needs for an AV system?",
+            "question": "Resistance is",
             "options": [
-                "Manufacturer product brochures",
-                "End user descriptions of the tasks and applications the AV system will support",
-                "The architect's building plans",
-                "The previous system's equipment list"
+                "The opposition to the flow of electrons in Direct Current.",
+                "The flow of electrons in an AC circuit.",
+                "The measure of stored energy in a capacitor.",
+                "The force that causes electrons to flow."
             ],
-            "answer": "End user descriptions of the tasks and applications the AV system will support"
+            "answer": "The opposition to the flow of electrons in Direct Current."
         },
         {
             "id": "cts2_39",
-            "question": "What are the four teams that comprise the overall Project Team?",
+            "question": "XLR connectors are",
             "options": [
-                "Sales, Engineering, Programming, and Installation",
-                "Client, Architect, General Contractor, and AV Integrator",
-                "Owner, Design, Installation, and Management",
-                "Executive, Finance, IT, and Facilities"
+                "Primarily used for unbalanced consumer audio.",
+                "Most commonly used for RF and video signals.",
+                "A type of coaxial connector for high-frequency signals.",
+                "Most commonly used with three conductors plus an outer shell that shields the connection and locks with mating connectors."
             ],
-            "answer": "Owner, Design, Installation, and Management"
+            "answer": "Most commonly used with three conductors plus an outer shell that shields the connection and locks with mating connectors."
         },
         {
             "id": "cts2_40",
-            "question": "Who would belong to the Design team?",
+            "question": "Modulating a composite video signal for transportation is commonly referred to as",
             "options": [
-                "The end-user and facility manager",
-                "Anyone with Consultant in their title except the moving consultant",
-                "The project manager and lead installer",
-                "The company's accounting department"
+                "IP streaming.",
+                "Baseband transmission.",
+                "Component video.",
+                "RF transmission."
             ],
-            "answer": "Anyone with Consultant in their title except the moving consultant"
+            "answer": "RF transmission."
         },
         {
             "id": "cts2_41",
-            "question": "Which groups make up the Management Team?",
+            "question": "What type of connector is shown?",
+            "image": "cts2_41.png",
             "options": [
-                "Developer, Construction Manager, and Building Management Agency",
-                "AV Designer, Programmer, and Installer",
-                "Client, End-User, and IT Staff",
-                "Salesperson, Project Manager, and Service Technician"
+                "RCA",
+                "BNC",
+                "XLR",
+                "TRS"
             ],
-            "answer": "Developer, Construction Manager, and Building Management Agency"
+            "answer": "XLR"
         },
         {
             "id": "cts2_42",
-            "question": "The End-User, Facility Manager and Building Committee comprise which team within the Project Team?",
+            "question": "When checking signal flow, the first thing you need to confirm is that the signal is",
             "options": [
-                "Design Team",
-                "Installation Team",
-                "Owner",
-                "Management Team"
+                "reaching the correct impedance",
+                "being generated by the source components",
+                "properly amplified",
+                "displayed at the right resolution"
             ],
-            "answer": "Owner"
+            "answer": "being generated by the source components"
         },
         {
             "id": "cts2_43",
-            "question": "Which group represent the generic roles that are important to the Project process?",
+            "question": "There are eight loudspeakers wired in parallel and each loudspeaker's impedance is 16 ohms. The impedance of the circuit is _____ ohms.",
             "options": [
-                "Architects, Electricians, and Carpenters",
-                "Clients, Stakeholders, and Financiers",
-                "Project Managers, Designers and Installers",
-                "Sales, Marketing, and Support"
+                "128 ohms",
+                "16 ohms",
+                "2 ohms",
+                "8 ohms"
             ],
-            "answer": "Project Managers, Designers and Installers"
+            "answer": "2 ohms"
         },
         {
             "id": "cts2_44",
-            "question": "Which project characteristics must be considered in order to determine which method is best suited for a particular project?",
+            "question": "There are four loudspeakers wired in parallel. Two of the loudspeakers each have an impedance of 8 ohms. Two of the loudspeakers each have an impedance of 16 ohms. Calculate the impedance of this parallel circuit.",
             "options": [
-                "The brand of equipment being used",
-                "The number of technicians on the team",
-                "The profit margin of the project",
-                "Schedule, Size, Type, Complexity, and Procurement Requirements"
+                "48 ohms",
+                "12 ohms",
+                "2.7 ohms",
+                "4 ohms"
             ],
-            "answer": "Schedule, Size, Type, Complexity, and Procurement Requirements"
+            "answer": "2.7 ohms"
         },
         {
             "id": "cts2_45",
-            "question": "What is an important aspect of funding that has a direct impact on the project process and design/installation?",
+            "question": "It is an industry best practice to use no less than _____ ISO rated hardware for an audio visual installation",
             "options": [
-                "Marketing Budget",
-                "Technical Support Funding",
-                "Travel and Expense Allotment",
-                "Sales Commission Structure"
+                "5.6",
+                "8.8",
+                "10.2",
+                "12.9"
             ],
-            "answer": "Technical Support Funding"
+            "answer": "8.8"
         },
         {
             "id": "cts2_46",
-            "question": "Whether a construction project is large or small, which milestones must be achieved in a typical schedule?",
+            "question": "If there are _____ bumps on the head of an ASTM ASE graded bolt, it is grade 5.",
             "options": [
-                "Programming, Building Design, AV Bid, and Move-In",
-                "Sales, Kickoff, Installation, and Billing",
-                "Concept, Design, Build, and Service",
-                "Site Survey, Proposal, Contract, and Completion"
+                "0",
+                "3",
+                "5",
+                "6"
             ],
-            "answer": "Programming, Building Design, AV Bid, and Move-In"
+            "answer": "3"
         },
         {
             "id": "cts2_47",
-            "question": "What type of project is a typical Consultant-Led Design-Bid-Build contract structure good for?",
+            "question": "In mounting, _____ refers to the hardware's elasticity.",
             "options": [
-                "Small, quick-turnaround projects",
-                "Projects where the technology is undefined",
-                "Long term projects with extended project cycles",
-                "Projects with a very limited budget"
+                "tensile strength",
+                "shear strength",
+                "compression strength",
+                "hardness rating"
             ],
-            "answer": "Long term projects with extended project cycles"
+            "answer": "tensile strength"
         },
         {
             "id": "cts2_48",
-            "question": "What is the risk in using an OFE/Integrator Installed contract structure?",
+            "question": "_____ is how likely the wall and the mounting are to be cut in two.",
             "options": [
-                "The project will likely finish ahead of schedule",
-                "System and infrastructure design and facility functionality may suffer",
-                "The total cost of the project is often lower",
-                "The integrator has too much control over the design"
+                "Tensile strength",
+                "Pullout strength",
+                "Shear strength",
+                "Bending moment"
             ],
-            "answer": "System and infrastructure design and facility functionality may suffer"
+            "answer": "Shear strength"
         },
         {
             "id": "cts2_49",
-            "question": "What are some of the important project scope and size considerations in selecting an AV provider?",
+            "question": "The following lists methods of control for an AV system.",
             "options": [
-                "The provider's preference for certain brands",
-                "The provider's office location",
-                "Financial Stability, Current Workload, and Company Credentials",
-                "The number of social media followers the provider has"
+                "HDMI, DisplayPort, SDI",
+                "XLR, RCA, TRS",
+                "IR, TCP/IP, RS-232",
+                "CAT6, Fiber, Coax"
             ],
-            "answer": "Financial Stability, Current Workload, and Company Credentials"
+            "answer": "IR, TCP/IP, RS-232"
         },
         {
             "id": "cts2_50",
-            "question": "What type of document typically includes Project Size Requirements, Corporate Profile, Team Personnel, and Warranty Response Time?",
+            "question": "The _____ interconnects the various pieces of a control system and provides the power for them operate and the communication among them.",
             "options": [
-                "RFP (Request for Proposal)",
-                "RFQ (Request for Quotation)",
-                "SOW (Statement of Work)",
-                "BOM (Bill of Materials)"
+                "Network switch",
+                "Power conditioner",
+                "Control bus",
+                "Video matrix"
             ],
-            "answer": "RFQ (Request for Quotation)"
+            "answer": "Control bus"
         },
         {
             "id": "cts2_51",
-            "question": "What is a significant difference between the Two-Envelope Bid Method and the Qualifications-Based Selection Method?",
+            "question": "Select the true statement:",
             "options": [
-                "Price is the only factor considered in both methods",
-                "Qualifications are ignored in the Two-Envelope Bid Method",
-                "Negotiate with the highest ranking firm to finalize the contract",
-                "The lowest bidder is always selected in Qualifications-Based Selection"
+                "Conduits and ducts are types of raceways",
+                "All raceways must be made of metal",
+                "Ducts are only used for ventilation, not wiring",
+                "Conduit is not required for low-voltage cabling"
             ],
-            "answer": "Negotiate with the highest ranking firm to finalize the contract"
+            "answer": "Conduits and ducts are types of raceways"
         },
         {
             "id": "cts2_52",
-            "question": "What is one of the disadvantages of contracting the AV integrator to the electrical subcontractor?",
+            "question": "The permissible area for one cable in a conduit is limited to _____ percent of the conduit area.",
             "options": [
-                "Faster communication and decision-making",
-                "A single point of contact for all low-voltage systems",
-                "More layers of responsibility and communication",
-                "Reduced overall project cost"
+                "40%",
+                "53%",
+                "31%",
+                "100%"
             ],
-            "answer": "More layers of responsibility and communication"
+            "answer": "53%"
         },
         {
             "id": "cts2_53",
-            "question": "Under what circumstances would you likely use an A305-1986 form?",
+            "question": "The permissible area for two cables in a conduit is limited to _____ percent of the conduit area.",
             "options": [
-                "To create a final bill of materials",
-                "To document as-built drawings",
-                "Scoring responses to an RFQ",
-                "To file for a building permit"
+                "53%",
+                "40%",
+                "31%",
+                "60%"
             ],
-            "answer": "Scoring responses to an RFQ"
+            "answer": "31%"
         },
         {
             "id": "cts2_54",
-            "question": "What is the ideal way to contract an AV integrator?",
+            "question": "The permissible area for three or more cables in a conduit is limited to _____ percent of the conduit area.",
             "options": [
-                "As a subcontractor to the furniture vendor",
-                "As a subcontractor to the general contractor",
-                "Directly to the Owner",
-                "Through a third-party staffing agency"
+                "31%",
+                "53%",
+                "75%",
+                "40%"
             ],
-            "answer": "Directly to the Owner"
+            "answer": "40%"
         },
         {
             "id": "cts2_55",
-            "question": "The process of identifying the activities that end-users need to perform, and developing the functional descriptions of your systems is referred to as:?",
+            "question": "When stripping cable it is best to use:",
             "options": [
-                "System Commissioning",
-                "Project Scoping",
-                "Needs Analysis",
-                "Value Engineering"
+                "A utility knife",
+                "Designated strippers",
+                "Scissors",
+                "Your teeth"
             ],
-            "answer": "Needs Analysis"
+            "answer": "Designated strippers"
         },
         {
             "id": "cts2_56",
-            "question": "What is the main task of the third Step of the Program Phase of a Project?",
+            "question": "Where can you usually find appropriate stripping dimensions for a cable?",
             "options": [
-                "Ordering equipment",
-                "Installing the system",
-                "Conducting program meetings",
-                "Finalizing the budget"
+                "In the building's architectural plans",
+                "On the connector packaging",
+                "On the cable spool label",
+                "In the user manual for the display"
             ],
-            "answer": "Conducting program meetings"
+            "answer": "On the connector packaging"
         },
         {
             "id": "cts2_57",
-            "question": "What should be included in the written Program Report?",
+            "question": "When using a coaxial stripping tool to cleanly strip coax cable, _____ so the blades can cut through the jacket, shield and dielectric at the proper points.",
             "options": [
-                "The final programming code for the control system",
-                "A detailed installation timeline",
-                "A complete list of all equipment model numbers",
-                "A conceptual and functional system description"
+                "pull the cable through the stripper quickly",
+                "use a back-and-forth sawing motion",
+                "apply heat to the cable first",
+                "rotate the stripper around the cable several times"
             ],
-            "answer": "A conceptual and functional system description"
+            "answer": "rotate the stripper around the cable several times"
         },
         {
             "id": "cts2_58",
-            "question": "A client requires a new boardroom. The sales person and engineer are sent to the premises to measure the facility and talk to the client. At this stage they should be performing a_",
+            "question": "120V three-phase power distribution system uses _____ wires.",
             "options": [
-                "System Commissioning",
-                "Needs Analysis",
-                "Final Walk-Through",
-                "Preventative Maintenance Check"
+                "two",
+                "three",
+                "four",
+                "five"
             ],
-            "answer": "Needs Analysis"
+            "answer": "four"
         },
         {
             "id": "cts2_59",
-            "question": "Sightlines for audience viewing in a given presentation space can be improved by:",
+            "question": "When AV systems incorporate lighting controls, special considerations are given when the lighting is run on a _____ power system.",
             "options": [
-                "Using a smaller screen",
-                "Dimming the lights completely",
-                "Providing a sloped, or stepped, seating arrangement",
-                "Placing the screen at floor level"
+                "12V DC",
+                "120V",
+                "208V",
+                "277 V"
             ],
-            "answer": "Providing a sloped, or stepped, seating arrangement"
+            "answer": "277 V"
         },
         {
             "id": "cts2_60",
-            "question": "AV professionals determine the end user's needs by examining three things: the required applications, the tasks, and the:",
+            "question": "The purpose of electrical grounding is to",
             "options": [
-                "Available budget",
-                "Functions to support the applications",
-                "Preferred equipment brands",
-                "Existing infrastructure"
+                "increase signal voltage",
+                "provide a path for neutral current",
+                "ensure safety",
+                "reduce power consumption"
             ],
-            "answer": "Functions to support the applications"
+            "answer": "ensure safety"
         },
         {
             "id": "cts2_61",
-            "question": "When working with a client to design an AV solution for a new conference center, the client requests a detailed budget for the equipment and installation. What phase is the project in?",
+            "question": "When conducting a complete project bid process, what milestone follows the issuing of the RFP?",
             "options": [
-                "Program phase",
-                "Design phase",
-                "Implementation phase",
-                "Service phase"
+                "Contract Award",
+                "Pre-Bid Meeting",
+                "System Installation",
+                "Final Payment"
             ],
-            "answer": "Design phase"
+            "answer": "Pre-Bid Meeting"
         },
         {
             "id": "cts2_62",
-            "question": "The HDTV aspect ratio is equal to which of the following?",
+            "question": "When terminating a Category 5e cable with an 8P8C (RJ-45) connector, it is best practice to untwist each wire pair:",
             "options": [
-                "1.33:1",
-                "1.78:1",
-                "2.35:1",
-                "1.85:1"
+                "As little as possible to get each wire to enter the proper channel in the connector",
+                "At least 1 inch (25mm) to ensure good contact",
+                "Completely, so all wires are parallel",
+                "It does not matter how much the pairs are untwisted"
             ],
-            "answer": "1.78:1"
+            "answer": "As little as possible to get each wire to enter the proper channel in the connector"
         },
         {
             "id": "cts2_63",
-            "question": "Please select the appropriate resolution for SXGA.",
+            "question": "One way to efficiently manage a construction schedule is to use a",
             "options": [
-                "1024 x 768",
-                "1280 x 1024",
-                "1600 x 1200",
-                "1920 x 1080"
+                "Gantt chart",
+                "Punch list",
+                "Bill of materials",
+                "Risk register"
             ],
-            "answer": "1280 x 1024"
+            "answer": "Gantt chart"
         },
         {
             "id": "cts2_64",
-            "question": "It is important to consider Polar Patterns when",
+            "question": "During the Construction Phase, what is likely to happen if a product is suddenly discontinued?",
             "options": [
-                "Choosing a video display",
-                "Calculating amplifier power",
-                "Selecting Microphones for use at live events",
-                "Designing a control system GUI"
+                "The project is put on hold indefinitely",
+                "A request for change (RFC) may be submitted",
+                "The client must accept a lower-quality substitute",
+                "The project budget is automatically increased"
             ],
-            "answer": "Selecting Microphones for use at live events"
+            "answer": "A request for change (RFC) may be submitted"
         },
         {
             "id": "cts2_65",
-            "question": "Which phase comes first in a project?",
+            "question": "During shop testing, is/are checked and is/are tested.",
             "options": [
-                "The Design Phase",
-                "The Implementation Phase",
-                "The Program Phase",
-                "The Service Phase"
+                "Wiring connections, equipment cosmetics",
+                "Network speeds, internet access",
+                "Proper functioning of equipment, software",
+                "Power consumption, heat load"
             ],
-            "answer": "The Program Phase"
+            "answer": "Proper functioning of equipment, software"
         },
         {
             "id": "cts2_66",
-            "question": "Any sound reinforcement system consists of two equal parts: the electronic system used to manipulate the audio signal and",
+            "question": "Where does the initial testing of a pre-assembled AV system typically occur in the Construction Phase?",
             "options": [
-                "The power distribution system",
-                "The control system programming",
-                "The acoustical environment",
-                "The video display components"
+                "On-site, after all equipment is installed",
+                "At the client's office",
+                "At the manufacturer's factory",
+                "At the warehouse, when the equipment is delivered"
             ],
-            "answer": "The acoustical environment"
+            "answer": "At the warehouse, when the equipment is delivered"
         },
         {
             "id": "cts2_67",
-            "question": "The ratio of image width to image height is defined as the",
+            "question": "During the Design Phase, it is important to coordinate with which of the following trades?",
             "options": [
-                "Resolution",
-                "Aspect ratio",
-                "Throw distance",
-                "Screen gain"
+                "Plumbing and HVAC",
+                "Landscaping and roofing",
+                "Architect, electrical consultant, construction manager",
+                "Painters and flooring installers"
             ],
-            "answer": "Aspect ratio"
+            "answer": "Architect, electrical consultant, construction manager"
         },
         {
             "id": "cts2_68",
-            "question": "A common technique for reducing the depth requirements of a rear projection space is",
+            "question": "When terminating an Ethernet cable, what connector type is normally used?",
             "options": [
-                "Using a short-throw lens",
-                "Folding the light path",
-                "Increasing the screen gain",
-                "Using a smaller screen"
+                "BNC",
+                "RJ11",
+                "RJ45",
+                "F-Type"
             ],
-            "answer": "Folding the light path"
+            "answer": "RJ45"
         },
         {
             "id": "cts2_69",
-            "question": "Which type of front screen has a smooth non-gloss surface similar to a white sheet, provides good color rendition, and evenly disperses light?",
+            "question": "What must be considered during rack assembly?",
             "options": [
-                "Beaded",
-                "Matte",
-                "High-contrast gray",
-                "Ambient light rejecting"
+                "Placing the heaviest equipment at the top",
+                "Mixing signal and power cables together to save space",
+                "Ergonomics of equipment placement, signal separation, heat load, weight distribution.",
+                "Ensuring the rack is filled to maximum capacity"
             ],
-            "answer": "Matte"
+            "answer": "Ergonomics of equipment placement, signal separation, heat load, weight distribution."
         },
         {
             "id": "cts2_70",
-            "question": "The maximum viewing distance for viewing a displayed image is based on the",
+            "question": "When creating estimates for an AV project what are the primary considerations?",
             "options": [
-                "Brightness of the projector",
-                "Amount of detail in the image",
-                "Screen gain",
-                "Ambient light in the room"
+                "Only the cost of the main display and speakers",
+                "The cost of labor only",
+                "Equipment & material costs, labor costs, estimate markup.",
+                "The competitor's bid price"
             ],
-            "answer": "Amount of detail in the image"
+            "answer": "Equipment & material costs, labor costs, estimate markup."
         },
         {
             "id": "cts2_71",
-            "question": "For good viewing, projected images should not be viewed at angles greater than _____ degrees off of the projection axis",
+            "question": "When purchasing AV supplies and equipment for a client AV installation project what needs to be done?",
             "options": [
-                "15",
-                "30",
-                "45",
-                "60"
+                "Order equipment based on the lowest price available",
+                "Wait until the installation day to order equipment",
+                "Identify needed equipment, tools and labor, work with vendors for prices and delivery schedule.",
+                "Let the client purchase the equipment directly"
             ],
-            "answer": "45"
+            "answer": "Identify needed equipment, tools and labor, work with vendors for prices and delivery schedule."
         },
         {
             "id": "cts2_72",
-            "question": "Which two parameters play a key role during the initial assessment of an AV project?",
+            "question": "How can labor timesheets and invoices from previous jobs be used to increase efficiency for future AVjob estimates?",
             "options": [
-                "Equipment brand and model numbers",
-                "Project schedule, Project Size",
-                "Technician skill level and availability",
-                "Salesperson commission rate and profit margin"
+                "They are not useful for future estimates",
+                "Analysis of past costs for labor and shipping.",
+                "Share them with clients to justify pricing",
+                "Use them for employee performance reviews only"
             ],
-            "answer": "Project schedule, Project Size"
+            "answer": "Analysis of past costs for labor and shipping."
         },
         {
             "id": "cts2_73",
-            "question": "The more accurate means to estimate dimensions of a commercial space during a site inspection would be to?",
+            "question": "When negotiating a contract for a job that will take a long time to complete, one should consider",
             "options": [
-                "Use the architectural drawings",
-                "Pace it off by foot",
-                "Count the number of ceiling tiles in a drop tile instalation",
-                "Use a laser distance measurer"
+                "Requiring full payment up front",
+                "Progress, stage, or interim invoicing",
+                "Billing only upon final completion",
+                "A fixed-price contract with no adjustments"
             ],
-            "answer": "Use a laser distance measurer"
+            "answer": "Progress, stage, or interim invoicing"
         },
         {
             "id": "cts2_74",
-            "question": "What type of interview questions will help a client become interested in a new or unfamiliar technology?",
+            "question": "When conducting a site visit, if a ladder is needed what type should be used?",
             "options": [
-                "Closed-ended Questions",
-                "Leading Questions",
-                "Technical Questions",
-                "Budgetary Questions"
+                "Aluminum",
+                "Steel",
+                "Fiberglass or wood.",
+                "Any ladder that is available on site"
             ],
-            "answer": "Leading Questions"
+            "answer": "Fiberglass or wood."
         },
         {
             "id": "cts2_75",
-            "question": "As a courtesy before leaving the final needs analysis meeting, the customer should be advised about:",
+            "question": "How far can RS-422 run and to how many devices",
             "options": [
-                "The installation team's schedule",
-                "When to expect the proposal",
-                "The final invoice amount",
-                "The warranty period for the equipment"
+                "50 ft and up to 2 devices",
+                "1000 ft and up to 5 devices",
+                "4000 ft and up to 10 devices",
+                "100 ft and up to 32 devices"
             ],
-            "answer": "When to expect the proposal"
+            "answer": "4000 ft and up to 10 devices"
         },
         {
             "id": "cts2_76",
-            "question": "When establishing initial contact with a client, try to develop a relationship early on with the",
+            "question": "How many conductors do you need to connect a basic RS-232",
             "options": [
-                "IT helpdesk",
-                "Accounting department",
-                "Stake Holders",
-                "General Contractor"
+                "2 wires",
+                "3 wires (Tx, Rx, Gnd)",
+                "4 wires",
+                "8 wires"
             ],
-            "answer": "Stake Holders"
+            "answer": "3 wires (Tx, Rx, Gnd)"
         },
         {
             "id": "cts2_77",
-            "question": "The process of creating an AV solution begins with",
+            "question": "If a system meets the original design, fulfills the needs of the end-user, and remains in proper working order, what will be the result?",
             "options": [
-                "Ordering equipment",
-                "Programming the control system",
-                "Performing a needs analysis",
-                "Installing the hardware"
+                "A project that is over budget",
+                "A successful project",
+                "A system that requires frequent service calls",
+                "A project that finished behind schedule"
             ],
-            "answer": "Performing a needs analysis"
+            "answer": "A successful project"
         },
         {
             "id": "cts2_78",
-            "question": "To maximize the quality of projected images in a presentation you should ensure:",
+            "question": "What are the primary functions of Step Four of the System Commissioning and Training Phase of a project?",
             "options": [
-                "The projector is set to its brightest possible mode",
-                "The screen has the highest possible gain",
-                "The ambient light is controlled in the presentation area",
-                "The room is completely dark"
+                "Ordering parts and materials",
+                "Inspecting, Testing and Aligning",
+                "Finalizing the project budget",
+                "Creating the initial design drawings"
             ],
-            "answer": "The ambient light is controlled in the presentation area"
+            "answer": "Inspecting, Testing and Aligning"
         },
         {
             "id": "cts2_79",
-            "question": "Using best practices, determine maximum viewer distance by multiplying the text height by:",
+            "question": "During which step in the System Commissioning and Training Phase is the final checklist for the complete installation generated?",
             "options": [
-                "100",
-                "150",
-                "200",
-                "250"
+                "Initial Site Survey",
+                "Generate the Punch List",
+                "Needs Analysis",
+                "Project Kickoff Meeting"
             ],
-            "answer": "150"
+            "answer": "Generate the Punch List"
         },
         {
             "id": "cts2_80",
-            "question": "During a site survey, the room appears to have a lot of reverberation present. What treatment could be recommended to improve the sound in the room?",
+            "question": "Verification and Optimization are two concepts that are applied during System Commissioning to ensure that:",
             "options": [
-                "Install more hard, reflective surfaces",
-                "Use more softer, diffuse surfaces",
-                "Increase the volume of the sound system",
-                "Add a subwoofer to the system"
+                "The project is profitable",
+                "The installation is completed as quickly as possible",
+                "The design intent has been met",
+                "The client has paid the final invoice"
             ],
-            "answer": "Use more softer, diffuse surfaces"
+            "answer": "The design intent has been met"
         },
         {
             "id": "cts2_81",
-            "question": "Direct coupled loudspeakers are usually listed by size, frequency response, power handling capacity, and",
+            "question": "What is the last step of the Construction Phase",
             "options": [
-                "Color",
-                "Weight",
-                "Impedance",
-                "Country of origin"
+                "Site cleanup",
+                "Final billing",
+                "Systems Training",
+                "Ordering equipment"
             ],
-            "answer": "Impedance"
+            "answer": "Systems Training"
         },
         {
             "id": "cts2_82",
-            "question": "When developing an AV solution for a client, whose input is MOST crucial for determining system requirements?",
+            "question": "During the Construction Phase of a project, which step always follows AV System Testing?",
             "options": [
-                "The Architect",
-                "The General Contractor",
-                "The AV Manufacturer",
-                "The End User"
+                "Site Installation",
+                "Rack Building",
+                "Programming",
+                "Project Kickoff"
             ],
-            "answer": "The End User"
+            "answer": "Rack Building"
         },
         {
             "id": "cts2_83",
-            "question": "A fundamental step in supporting the end user's needs is",
+            "question": "The Owner Plays what role in the Project Lifecycle",
             "options": [
-                "selecting the most expensive equipment",
-                "determining the overall function of the room or facility type",
-                "creating a complex control system interface",
-                "finalizing the installation schedule"
+                "Installer of the AV System",
+                "Designer of the AV System",
+                "Buyer of the AV System",
+                "Programmer of the AV System"
             ],
-            "answer": "determining the overall function of the room or facility type"
+            "answer": "Buyer of the AV System"
         },
         {
             "id": "cts2_84",
-            "question": "What constraints on working at a site need to be noted when collecting site information?",
+            "question": "The Generic project process contains three roles Installer, Project manager and",
             "options": [
-                "The brand of coffee available",
-                "The location of the nearest lunch spot",
-                "Limitations on activities, time of day, parking & loading, noise",
-                "The names of the client's IT staff"
+                "Client",
+                "Salesperson",
+                "Designer",
+                "Accountant"
             ],
-            "answer": "Limitations on activities, time of day, parking & loading, noise"
+            "answer": "Designer"
         },
         {
             "id": "cts2_85",
-            "question": "What factors impact acoustic quality in a given space or venue?",
+            "question": "What stages are in both small and large construction projects",
             "options": [
-                "The color of the walls and ceiling",
-                "Dimensions and shape of the venue/room; reflected sound and ambient noise",
-                "The brand of the loudspeakers",
-                "The time of day the system is used"
+                "Sales, Marketing, and Billing",
+                "Program, Design, Construction and Occupy",
+                "Concept, Approval, and Execution",
+                "Quote, Order, and Install"
             ],
-            "answer": "Dimensions and shape of the venue/room; reflected sound and ambient noise"
+            "answer": "Program, Design, Construction and Occupy"
         },
         {
             "id": "cts2_86",
-            "question": "How can you address ambient noise issues in a room?",
+            "question": "What type of project is suitable for a Consultant led design build",
             "options": [
-                "Increase the volume of the audio system to overcome the noise",
-                "Use highly reflective materials on the walls",
-                "Use acoustically absorptive materials in the room.",
-                "Install a white noise generator"
+                "1 month or less",
+                "6 months or more",
+                "3 months or less",
+                "1 year or more"
             ],
-            "answer": "Use acoustically absorptive materials in the room."
+            "answer": "6 months or more"
         },
         {
             "id": "cts2_87",
-            "question": "In the program phase, what must be determined to assure that a functional AV system scope will be created?",
+            "question": "What type of project is suitable for an integrator Led Design build",
             "options": [
-                "The specific equipment model numbers to be used",
-                "The profit margin for the project",
-                "The specific functions, tasks, and applications of the presenter.",
-                "The final installation date"
+                "One year or more",
+                "Six months or more",
+                "Three months or less",
+                "Only very large, complex projects"
             ],
-            "answer": "The specific functions, tasks, and applications of the presenter."
+            "answer": "Three months or less"
         },
         {
             "id": "cts2_88",
-            "question": "In the program report phase of a site analysis what type of documentation is needed?",
+            "question": "What is the disadvantages of splitting the AV Equipment Contract and Labor contract",
             "options": [
-                "The final invoice for the project",
-                "The user manuals for the equipment",
-                "Architectural and engineering drawings, industry standards, owner/end user information",
-                "A list of the installation team members"
+                "It simplifies the billing process",
+                "It ensures better quality equipment is used",
+                "Determining which party is responsible for AV system problems",
+                "It always results in a lower overall cost"
             ],
-            "answer": "Architectural and engineering drawings, industry standards, owner/end user information"
+            "answer": "Determining which party is responsible for AV system problems"
         },
         {
             "id": "cts2_89",
-            "question": "How does the AV team present the program report to obtain client approval?",
+            "question": "In the building process what is the first milestone",
             "options": [
-                "Email the report without a follow-up",
-                "Create a detailed meeting agenda and be sure to document client feedback & suggestions",
-                "Provide only a verbal summary over the phone",
-                "Mail a printed copy and wait for the client to respond"
+                "Issue request for proposal",
+                "Final system commissioning",
+                "User training",
+                "Submitting the final invoice"
             ],
-            "answer": "Create a detailed meeting agenda and be sure to document client feedback & suggestions"
+            "answer": "Issue request for proposal"
         },
         {
             "id": "cts2_90",
-            "question": "How are lighting requirements determined for a given amount of space in a venue?",
+            "question": "After witting the program report what is the next step in the program phase",
             "options": [
-                "Lighting requirements are directly proportional to the distance from the source",
-                "As the distance from a light source is doubled, perceived illumination decreases by 75%",
-                "The color of the light source is the primary factor",
-                "Lighting requirements are constant regardless of room size"
+                "Order the equipment",
+                "Begin installation",
+                "Distribute the report",
+                "Send the final invoice"
             ],
-            "answer": "As the distance from a light source is doubled, perceived illumination decreases by 75%"
+            "answer": "Distribute the report"
         },
         {
             "id": "cts2_91",
-            "question": "What should be included in an AV proposal for a client?",
+            "question": "During the System Commissioning and training phase, what is the role of the punch or checklist",
             "options": [
-                "A vague description of the work to be done",
-                "Only the total cost, without a breakdown",
-                "Detailed description of all components, accessories, and all costs",
-                "Information about the competitors' pricing"
+                "It is a list of all equipment to be ordered",
+                "It defines the items that require resolution for project completion",
+                "It is the schedule for user training sessions",
+                "It is the final invoice for the project"
             ],
-            "answer": "Detailed description of all components, accessories, and all costs"
+            "answer": "It defines the items that require resolution for project completion"
         },
         {
             "id": "cts2_92",
-            "question": "In presenting a proposal for AV, what is necessary for a contract?",
+            "question": "In the system commissioning process why is facility inspection important?",
             "options": [
-                "A verbal agreement and a handshake",
-                "A list of preferred equipment brands",
-                "The project manager's resume",
-                "Statement of specific work proposed, costs and payment schedule, delivery schedule"
+                "To determine the final cost of the project",
+                "The condition of the site and completed AV work can be inspected",
+                "To train the end users on the new system",
+                "It is not an important step"
             ],
-            "answer": "Statement of specific work proposed, costs and payment schedule, delivery schedule"
+            "answer": "The condition of the site and completed AV work can be inspected"
         },
         {
             "id": "cts2_93",
-            "question": "After hearing the vendors' Request for Proposal (RFP), how do you evaluate the vendor's proposal to determine the best value?",
+            "question": "In a _____ WAN topology, all LAN sites connect to an ISP backbone.",
             "options": [
-                "Always select the vendor with the lowest price",
-                "Choose the vendor who submitted their proposal first",
-                "Consider the price, quality, approach, and ability of vendor to fulfill the contract",
-                "Select the vendor with the most impressive marketing materials"
+                "fully meshed",
+                "hub and spoke",
+                "common carrier",
+                "point-to-point"
             ],
-            "answer": "Consider the price, quality, approach, and ability of vendor to fulfill the contract"
+            "answer": "common carrier"
         },
         {
             "id": "cts2_94",
-            "question": "How is a contract awarded to a vendor after the vendor is determined to be the best value for a project?",
+            "question": "A wide area network (WAN) uses _____ to send information between nodes.",
             "options": [
-                "The contract is automatically awarded to the lowest bidder",
-                "Use the RFP and vendor proposal, negotiate items needing clarification with contract clauses",
-                "A verbal agreement is sufficient",
-                "The vendor with the best presentation is chosen"
+                "MAC addresses",
+                "logical addresses, such as IP addresses",
+                "serial numbers",
+                "physical port numbers"
             ],
-            "answer": "Use the RFP and vendor proposal, negotiate items needing clarification with contract clauses"
+            "answer": "logical addresses, such as IP addresses"
         },
-        {
-            "id": "cts2_95",
-            "question": "In marketing, what is your AV Company's 'value proposition'?",
-            "options": [
-                "The total value of all the equipment you sell",
-                "Product or service offering which makes your company better or different from others.",
-                "A list of your company's financial assets",
-                "The price you propose for a project"
-            ],
-            "answer": "Product or service offering which makes your company better or different from others."
-        },
-        {
-            "id": "cts2_96",
-            "question": "How should you establish a marketing budget for your AV Company",
-            "options": [
-                "Spend as little as possible on marketing",
-                "Set the marketing and advertising budget as a percentage of projected sales.",
-                "Allocate the entire company profit to marketing",
-                "Match the marketing budget of your largest competitor"
-            ],
-            "answer": "Set the marketing and advertising budget as a percentage of projected sales."
-        },
-        {
-            "id": "cts2_97",
-            "question": "What is one of the major considerations in creating an AV solution for an important historical site?",
-            "options": [
-                "Using the newest and most visible technology",
-                "Preservation of the site",
-                "Completing the installation as quickly as possible",
-                "Minimizing the overall cost"
-            ],
-            "answer": "Preservation of the site"
-        },
-        {
-            "id": "cts2_98",
-            "question": "What are the 4 parts of the needs analysis pyramid",
-            "options": [
-                "Budget, Timeline, Equipment, Labor",
-                "Sales, Design, Installation, Service",
-                "Needs, Applications, Tasks, Features and Functions",
-                "Audio, Video, Control, Networking"
-            ],
-            "answer": "Needs, Applications, Tasks, Features and Functions"
-        },
-        {
-            "id": "cts2_99",
-            "question": "What is a need",
-            "options": [
-                "A specific brand of equipment requested by the client",
-                "A nice-to-have feature that can be added later",
-                "The total budget for the project",
-                "An essential function that must be part of an AV system"
-            ],
-            "answer": "An essential function that must be part of an AV system"
-        },
-        {
-            "id": "cts2_100",
-            "question": "What is an Application",
-            "options": [
-                "A software program installed on the control processor",
-                "An Activity or function that supports the end users need (Meeting or demo)",
-                "The process of applying for project permits",
-                "A mobile app used to control the system"
-            ],
-            "answer": "An Activity or function that supports the end users need (Meeting or demo)"
-        },
-        {
-            "id": "cts2_101",
-            "question": "What is a task",
-            "options": [
-                "A single line item on the project invoice",
-                "A job assigned to a specific installer",
-                "An Av System or process that supports the end users application (A display for a meeting)",
-                "The process of updating equipment firmware"
-            ],
-            "answer": "An Av System or process that supports the end users application (A display for a meeting)"
-        },
-        {
-            "id": "cts2_102",
-            "question": "What is a Function",
-            "options": [
-                "A social gathering for the project team",
-                "the specific parts of a task (type ofdisplay, seating layout)",
-                "The mathematical formula used to calculate screen size",
-                "The job title of the person operating the system"
-            ],
-            "answer": "the specific parts of a task (type ofdisplay, seating layout)"
-        },
-        {
-            "id": "cts2_103",
-            "question": "A room is going to be used to inform new hires about organizational procedures. What is the Application",
-            "options": [
-                "Playing background music",
-                "Video conferencing with remote participants",
-                "Displaying a PowerPoint presentation",
-                "Informing new hires"
-            ],
-            "answer": "Informing new hires"
-        },
-        {
-            "id": "cts2_104",
-            "question": "what is benchmarking?",
-            "options": [
-                "The process of testing equipment on a workbench before installation",
-                "Setting a benchmark for the project's completion date",
-                "examining methods, techniques, and principles from peer organizations and facilities, which can be used as a basis for designing a new or renovated facility.",
-                "Creating a mark on the wall to indicate equipment placement"
-            ],
-            "answer": "examining methods, techniques, and principles from peer organizations and facilities, which can be used as a basis for designing a new or renovated facility."
-        },
-        {
-            "id": "cts2_105",
-            "question": "What is the goal of Benchmarking",
-            "options": [
-                "To determine the project's final cost",
-                "to identify the AV features and functions desired by the client.",
-                "To select the specific brand of equipment to be used",
-                "To create an installation schedule"
-            ],
-            "answer": "to identify the AV features and functions desired by the client."
-        },
-        {
-            "id": "cts2_106",
-            "question": "What is a program meeting?",
-            "options": [
-                "A meeting to program the control system",
-                "A training session for the end users",
-                "program meeting gathers and exchanges the information necessary to determine which functions are required to support the end users' applications.",
-                "A final project wrap-up meeting"
-            ],
-            "answer": "program meeting gathers and exchanges the information necessary to determine which functions are required to support the end users' applications."
-        },
-        {
-            "id": "cts2_107",
-            "question": "What is the program report?",
-            "options": [
-                "A final report on the profitability of the project",
-                "A user manual for the AV system",
-                "A list of all the programming code used in the system",
-                "program report is a document that describes the client's specific needs, system purpose and functionality, and the designer's best estimate of probable cost, in a non-technical format for review and approval by the owner."
-            ],
-            "answer": "program report is a document that describes the client's specific needs, system purpose and functionality, and the designer's best estimate of probable cost, in a non-technical format for review and approval by the owner."
-        },
-        {
-            "id": "cts2_108",
-            "question": "What s the goal of an effective program meeting?",
-            "options": [
-                "To finalize the equipment order",
-                "To schedule the installation dates",
-                "To train the end users on the new system",
-                "Gather and exchange the information necessary to determine which functions are required to support the end users' applications"
-            ],
-            "answer": "Gather and exchange the information necessary to determine which functions are required to support the end users' applications"
-        },
-        {
-            "id": "cts2_109",
-            "question": "The main purpose of the program report is to list the equipment and model numbers that will be used in the final system",
-            "options": [
-                "True",
-                "False",
-                "Only if the client requests it",
-                "Only for projects over a certain budget"
-            ],
-            "answer": "False"
-        },
-        {
-            "id": "cts2_110",
-            "question": "A complete project documentation package includes:",
-            "options": [
-                "Only the final invoice",
-                "User manuals for the equipment",
-                "Contract documents, Project specifications, Project drawings: architectural and system",
-                "A list of the project team members' contact information"
-            ],
-            "answer": "Contract documents, Project specifications, Project drawings: architectural and system"
-        },
-        {
-            "id": "cts2_111",
-            "question": "What are contract documents",
-            "options": [
-                "The user manuals for the equipment",
-                "The as-built drawings of the system",
-                "include bid information, contractor qualification requirements, payment schedules, and points of contact.",
-                "The marketing brochures for the selected equipment"
-            ],
-            "answer": "include bid information, contractor qualification requirements, payment schedules, and points of contact."
-        },
-        {
-            "id": "cts2_112",
-            "question": "What are project specifications",
-            "options": [
-                "The client's list of desired features",
-                "They are specifications for the project itself. Such as find details of the system.",
-                "The project timeline and key milestones",
-                "The total budget for the project"
-            ],
-            "answer": "They are specifications for the project itself. Such as find details of the system."
-        },
-        {
-            "id": "cts2_113",
-            "question": "What is a section cut flag arrow",
-            "options": [
-                "Indicates the location of a fire extinguisher",
-                "Shows the direction of the section drawing",
-                "Marks a location for a custom wall plate",
-                "Points to the North direction on a floor plan"
-            ],
-            "answer": "Shows the direction of the section drawing"
-        },
-        {
-            "id": "cts2_114",
-            "question": "What is a Detail Drawing",
-            "options": [
-                "A drawing of the entire building floor plan",
-                "A conceptual sketch of the system",
-                "indicate small items that need magnified views in order to show how they must be installed.",
-                "A photograph of the completed installation"
-            ],
-            "answer": "indicate small items that need magnified views in order to show how they must be installed."
-        },
-        {
-            "id": "cts2_115",
-            "question": "What is a section drawing",
-            "options": [
-                "shows the space as if it was cut apart",
-                "A top-down view of the room",
-                "A 3D rendering of the final system",
-                "A wiring diagram of a single component"
-            ],
-            "answer": "shows the space as if it was cut apart"
-        },
-        {
-            "id": "cts2_116",
-            "question": "What is an Elevation drawing",
-            "options": [
-                "A drawing showing the height of the building above sea level",
-                "A top-down view of the equipment rack",
-                "is a drawing that looks at the environment from a front, side, or back view",
-                "A schematic of the electrical power distribution"
-            ],
-            "answer": "is a drawing that looks at the environment from a front, side, or back view"
-        },
-        {
-            "id": "cts2_117",
-            "question": "What is a column line",
-            "options": [
-                "A line in a spreadsheet detailing project costs",
-                "The vertical line separating tasks in a Gantt chart",
-                "used to indicate the locations of columns, load-bearing walls, and other structural elements within the building layout,",
-                "A line indicating the center of the projection screen"
-            ],
-            "answer": "used to indicate the locations of columns, load-bearing walls, and other structural elements within the building layout,"
-        },
-        {
-            "id": "cts2_118",
-            "question": "What are match lines",
-            "options": [
-                "Lines used to align video projectors in a blend",
-                "show how each sub-drawing matches to another page of the drawing.",
-                "Lines on a test pattern used for color calibration",
-                "Lines indicating the boundary of a wireless microphone's range"
-            ],
-            "answer": "show how each sub-drawing matches to another page of the drawing."
-        },
-        {
-            "id": "cts2_119",
-            "question": "What is a reference flag?",
-            "options": [
-                "A marker used to indicate the location of the main equipment rack",
-                "reference flag symbol on a drawing tells us to reference another drawing,",
-                "A flag used in programming code to indicate a specific condition",
-                "A physical flag placed on site to mark a potential hazard"
-            ],
-            "answer": "reference flag symbol on a drawing tells us to reference another drawing,"
-        },
-        {
-            "id": "cts2_120",
-            "question": "What are eleveation flags",
-            "options": [
-                "Flags on a drawing indicating the height of the ceiling",
-                "Markers showing the vertical position of a display on a wall",
-                "plan drawings to indicate related elevation drawings.",
-                "Symbols indicating a change in floor level"
-            ],
-            "answer": "plan drawings to indicate related elevation drawings."
-        },
-        {
-            "id": "cts2_121",
-            "question": "What are section cut flags",
-            "options": [
-                "indicate which section drawing depicts a section of a master drawing in more detail, as shown in the picture.",
-                "Markers on a cable indicating where it should be cut",
-                "Flags in a project plan indicating a budget cut",
-                "Symbols on a drawing showing where to install speakers"
-            ],
-            "answer": "indicate which section drawing depicts a section of a master drawing in more detail, as shown in the picture."
-        },
-        {
-            "id": "cts2_122",
-            "question": "The farthest viewer concept addresses which three factors?",
-            "options": [
-                "Projector brightness, screen gain, and ambient light",
-                "Image height, viewer task, and distance",
-                "Audio volume, room acoustics, and speaker placement",
-                "Budget, timeline, and equipment availability"
-            ],
-            "answer": "Image height, viewer task, and distance"
-        },
-        {
-            "id": "cts2_123",
-            "question": "The primary goal of the farthest viewer formula is to ensure that",
-            "options": [
-                "the screen is as large as possible",
-                "the projector is mounted in the center of the room",
-                "all viewers can interpret what is on the screen",
-                "the audio system is loud enough"
-            ],
-            "answer": "all viewers can interpret what is on the screen"
-        },
-        {
-            "id": "cts2_124",
-            "question": "Viewing tasks are broken down by what?",
-            "options": [
-                "The age of the viewers",
-                "The time of day the viewing occurs",
-                "The type of content being displayed (e.g., video, text)",
-                "8 when the viewers will generally observe content. 6 when the viewers will inspect content with clues and generally observe content. 4 when the viewers will inspect content without clues."
-            ],
-            "answer": "8 when the viewers will generally observe content. 6 when the viewers will inspect content with clues and generally observe content. 4 when the viewers will inspect content without clues."
-        },
-        {
-            "id": "cts2_125",
-            "question": "What is a work breakdown structure?",
-            "options": [
-                "A diagram showing how to disassemble a piece of equipment for repair",
-                "a deliverable-oriented grouping of project elements which will ultimately organize and define the total scope of the project.",
-                "A list of tasks that were not completed on time",
-                "The process of deconstructing a failed project to determine the cause"
-            ],
-            "answer": "a deliverable-oriented grouping of project elements which will ultimately organize and define the total scope of the project."
-        },
-        {
-            "id": "cts2_126",
-            "question": "What is a logic network diagram?",
-            "options": [
-                "A schematic of a computer network's logical topology",
-                "A diagram showing the programming logic for a control system",
-                "used when negotiating with your client regarding what other tasks need to be done before you can begin your tasks",
-                "A wiring diagram for a logic-based audio DSP"
-            ],
-            "answer": "used when negotiating with your client regarding what other tasks need to be done before you can begin your tasks"
-        },
-        {
-            "id": "cts2_127",
-            "question": "What is the main objective of evaluating the cost of completing an AV project?",
-            "options": [
-                "To create the final invoice for the client",
-                "To determine if the AV company made money on the project",
-                "To compare the cost with competitors' pricing",
-                "To justify the purchase of new installation tools"
-            ],
-            "answer": "To determine if the AV company made money on the project"
-        },
-        {
-            "id": "cts2_128",
-            "question": "Screen gain is:",
-            "options": [
-                "The increase in screen size when using a zoom lens",
-                "The amount of profit made from selling a screen",
-                "Is the ability of a screen to redirect projected light to the audience to make it appear brighter.",
-                "The electrical power gain required to operate a motorized screen"
-            ],
-            "answer": "Is the ability of a screen to redirect projected light to the audience to make it appear brighter."
-        },
-        {
-            "id": "cts2_129",
-            "question": "Another way to signify an aspect ratio of 4:3 would be",
-            "options": [
-                "1.78:1",
-                "1.33:1",
-                "1.6:1",
-                "2.35:1"
-            ],
-            "answer": "1.33:1"
-        },
-        {
-            "id": "cts2_130",
-            "question": "The purpose of a written program report is to communicate",
-            "options": [
-                "the final installation schedule",
-                "the as-built wiring details",
-                "the user training instructions",
-                "a functional system description"
-            ],
-            "answer": "a functional system description"
-        },
-        {
-            "id": "cts2_131",
-            "question": "The program reports executive summary should contain a brief overview of the project and",
-            "options": [
-                "A list of all equipment model numbers",
-                "The lead installer's resume",
-                "Programming process",
-                "The final invoice"
-            ],
-            "answer": "Programming process"
-        },
-        {
-            "id": "cts2_132",
-            "question": "At the beginning of Program Phase which categories of existing documentation should be reviewed",
-            "options": [
-                "The previous year's financial statements",
-                "Competitor's project proposals",
-                "Architectural, Organizational and Technical",
-                "Marketing and sales brochures"
-            ],
-            "answer": "Architectural, Organizational and Technical"
-        },
-        {
-            "id": "cts2_133",
-            "question": "The purpose of developing an AV system design package is to communicate the",
-            "options": [
-                "Marketing plan for the new system",
-                "Final cost to the client",
-                "Intent of the design to the installers",
-                "User training schedule"
-            ],
-            "answer": "Intent of the design to the installers"
-        },
-        {
-            "id": "cts2_134",
-            "question": "Which team members best reflect the team of participants during the review step of an AV projects design phase",
-            "options": [
-                "Salesperson and marketing manager",
-                "Lead installer and service technician",
-                "Architect, Owner, Construction manager and End user",
-                "CEO and CFO of the integration company"
-            ],
-            "answer": "Architect, Owner, Construction manager and End user"
-        },
-        {
-            "id": "cts2_135",
-            "question": "What are the 5 parts to determining the End Users Needs",
-            "options": [
-                "Budget, Timeline, Equipment, Labor, Profit",
-                "Talk to Stakeholders, Review Existing Documentation, Evaluate the Site Environment, Conduct Program meetings, Write the program report",
-                "Design, Build, Test, Deploy, Service",
-                "Audio, Video, Control, Network, Power"
-            ],
-            "answer": "Talk to Stakeholders, Review Existing Documentation, Evaluate the Site Environment, Conduct Program meetings, Write the program report"
-        },
-        {
-            "id": "cts2_136",
-            "question": "What documentation should you get from Stakeholders",
-            "options": [
-                "Their personal contact information",
-                "A list of their favorite equipment brands",
-                "Engineering Drawings, Architectural Organizational project, Design manuals, best practices.",
-                "The company's annual financial report"
-            ],
-            "answer": "Engineering Drawings, Architectural Organizational project, Design manuals, best practices."
-        },
-        {
-            "id": "cts2_137",
-            "question": "What are the 5 parts of the Program Report",
-            "options": [
-                "Introduction, Body, Conclusion, Appendix, Index",
-                "Executive Summary, System Descriptions, Infrastructure Considerations, Audio Visual Budgets, Additional Costs",
-                "Sales, Engineering, Installation, Programming, Service",
-                "Scope, Schedule, Budget, Quality, Resources"
-            ],
-            "answer": "Executive Summary, System Descriptions, Infrastructure Considerations, Audio Visual Budgets, Additional Costs"
-        },
-        {
-            "id": "cts2_138",
-            "question": "The needs analysis determines:",
-            "options": [
-                "The specific technicians assigned to the job",
-                "The final profit margin of the project",
-                "The brand of equipment that must be used",
-                "Nature of the System, Infrastructure, System Budget"
-            ],
-            "answer": "Nature of the System, Infrastructure, System Budget"
-        },
-        {
-            "id": "cts2_139",
-            "question": "How does the AV team use information about any identified constraints to the AV design and installation tasks?",
-            "options": [
-                "To justify a higher project cost",
-                "To explain why the project cannot be done",
-                "To develop a work-around plan when these constraints will affect the design or installation tasks",
-                "This information is typically disregarded"
-            ],
-            "answer": "To develop a work-around plan when these constraints will affect the design or installation tasks"
-        },
-        {
-            "id": "cts2_140",
-            "question": "The task level variable refers to",
-            "options": [
-                "the skill level of the installer",
-                "the difficulty of the programming code",
-                "what the observer is trying to see and understand",
-                "the number of tasks in a project plan"
-            ],
-            "answer": "what the observer is trying to see and understand"
-        },
-        {
-            "id": "cts2_141",
-            "question": "Purpose of an AV system",
-            "options": [
-                "the communication task it helps accomplish",
-                "to use the latest available technology",
-                "to generate revenue for the manufacturer",
-                "to provide employment for AV technicians"
-            ],
-            "answer": "the communication task it helps accomplish"
-        },
-        {
-            "id": "cts2_142",
-            "question": "Control System",
-            "options": [
-                "a system for managing project timelines and budgets",
-                "a subsystem that enables simplified operation of other complex systems such as an av or lighting system. Includes user interface, processor or computer, control equipment.",
-                "a quality control process for checking installations",
-                "a method for controlling inventory and equipment"
-            ],
-            "answer": "a subsystem that enables simplified operation of other complex systems such as an av or lighting system. Includes user interface, processor or computer, control equipment."
-        },
-        {
-            "id": "cts2_143",
-            "question": "Ergonomics",
-            "options": [
-                "The study of economic principles in AV design",
-                "A brand of ergonomic installation tools",
-                "The process of making a system energy efficient",
-                "scientific study of the way people interact with a system."
-            ],
-            "answer": "scientific study of the way people interact with a system."
-        },
-        {
-            "id": "cts2_144",
-            "question": "Closest viewer rule",
-            "options": [
-                "no closer than 1X the screen's width",
-                "no closer than 2X the screen's height",
-                "no closer than half the screen's diagonal",
-                "no closer than the width of the room"
-            ],
-            "answer": "no closer than 1X the screen's width"
-        },
-        {
-            "id": "cts2_145",
-            "question": "Farthest viewer rule",
-            "options": [
-                "No farther than 4X the screen's height",
-                "No farther than 6X the screen's height",
-                "No farther than 8X the screen's height",
-                "No farther than 10X the screen's height"
-            ],
-            "answer": "No farther than 8X the screen's height"
-        },
-        {
-            "id": "cts2_146",
-            "question": "What type of chart is displayed below? (activity/year/budget/actual)",
-            "image": "cts2_146.png",
-            "options": [
-                "gantt chart",
-                "pie chart",
-                "flow chart",
-                "organizational chart"
-            ],
-            "answer": "gantt chart"
-        }
-    ]
-}
