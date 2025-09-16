@@ -1,5 +1,281 @@
-var cts2_questions = {
+var chapter1_questions = {
     "questions": [
+        {
+            "id": "cts1_3",
+            "question": "0 dB SPL describes:",
+            "options": [
+                "the threshold of human hearing",
+                "complete silence",
+                "the noise floor of a typical room",
+                "the lowest frequency a human can hear"
+            ],
+            "answer": "the threshold of human hearing"
+        },
+        {
+            "id": "cts1_4",
+            "question": "What is a decibel?",
+            "options": [
+                "A unit for measuring the speed of sound",
+                "An absolute measure of electrical power",
+                "a logarithmic scale used to describe ratios with a large range of values",
+                "A linear scale for measuring acoustic energy"
+            ],
+            "answer": "a logarithmic scale used to describe ratios with a large range of values"
+        },
+        {
+            "id": "cts1_5",
+            "question": "An audio amplifier outputs 75 watts and then it is decreased to 50 watts. What is the change in decibels?",
+            "options": [
+                "Positive 1.8 dB",
+                "Negative 25 dB",
+                "Negative -1.8 dB",
+                "Positive 2.5 dB"
+            ],
+            "answer": "Negative -1.8 dB"
+        },
+        {
+            "id": "cts1_6",
+            "question": "How loud (in decibels) does a 60 Hz sound have to be for it to be audible?",
+            "options": [
+                "0 dB",
+                "20 dB",
+                "40 dB",
+                "60 dB"
+            ],
+            "answer": "40 dB"
+        },
+        {
+            "id": "cts1_7",
+            "question": "According to the equal loudness curve chart below, how loud does a 20 Hz sound have to be before it is audible?",
+            "image": "cts1_7.png",
+            "options": [
+                "20 dB",
+                "50 dB",
+                "70 dB",
+                "90 dB"
+            ],
+            "answer": "70 dB"
+        },
+        {
+            "id": "cts1_8",
+            "question": "'Weighting' a sound pressure level measurement accounts for differences in the way",
+            "options": [
+                "sound reflects off different surfaces",
+                "humans perceive different frequencies at a given listening level",
+                "microphone distance affects frequency response",
+                "atmospheric pressure changes with altitude"
+            ],
+            "answer": "humans perceive different frequencies at a given listening level"
+        },
+        {
+            "id": "cts1_9",
+            "question": "You measure the background noise level in a conference room at 40 dB SPL A-wtd. What is the target sound pressure level of the audio system?",
+            "options": [
+                "40",
+                "55",
+                "65",
+                "85"
+            ],
+            "answer": "65"
+        },
+        {
+            "id": "cts1_23",
+            "question": "An increase in voltage means an increase in _____ if the current remains the same",
+            "options": [
+                "resistance",
+                "power",
+                "capacitance",
+                "frequency"
+            ],
+            "answer": "resistance"
+        },
+        {
+            "id": "cts1_24",
+            "question": "The _____ in an electrical circuit is proportional to the applied _____",
+            "options": [
+                "resistance; power",
+                "wattage; impedance",
+                "current; voltage",
+                "frequency; amplitude"
+            ],
+            "answer": "current; voltage"
+        },
+        {
+            "id": "cts1_25",
+            "question": "As impedance increases and current remains constant, voltage",
+            "options": [
+                "decreases",
+                "stays the same",
+                "becomes alternating",
+                "increases"
+            ],
+            "answer": "increases"
+        },
+        {
+            "id": "cts1_26",
+            "question": "If the measured voltage in a circuit is 40 V, and the resistance is 8 ohms, what is the current?",
+            "options": [
+                "320A",
+                "0.2A",
+                "5A",
+                "48A"
+            ],
+            "answer": "5A"
+        },
+        {
+            "id": "cts1_27",
+            "question": "The relationship between current and _____ is inversely proportional.",
+            "options": [
+                "voltage",
+                "resistance",
+                "power",
+                "frequency"
+            ],
+            "answer": "resistance"
+        },
+        {
+            "id": "cts1_28",
+            "question": "Resistance _____ the flow of current.",
+            "options": [
+                "amplifies",
+                "has no effect on",
+                "reduces",
+                "rectifies"
+            ],
+            "answer": "reduces"
+        },
+        {
+            "id": "cts1_29",
+            "question": "If the measured current in a circuit is 5 A and the resistance is 8 ohms, what is the voltage?",
+            "options": [
+                "40V",
+                "1.6V",
+                "13V",
+                "0.625V"
+            ],
+            "answer": "40V"
+        },
+        {
+            "id": "cts1_30",
+            "question": "If the measured current is 10 A and the voltage is 120 V, what is the resistance in the circuit?",
+            "options": [
+                "1200 Ohms",
+                "12 Ohms",
+                "110 Ohms",
+                "0.083 Ohms"
+            ],
+            "answer": "12 Ohms"
+        },
+        {
+            "id": "cts1_31",
+            "question": "The current in a circuit is 0.5 A, and the voltage is measured at 9 V. What is the power?",
+            "options": [
+                "18 W",
+                "4.5 W",
+                "9.5 W",
+                "0.055 W"
+            ],
+            "answer": "4.5 W"
+        },
+        {
+            "id": "cts1_32",
+            "question": "The current in a circuit is measured at 1 A, and the resistance is 1 ohm. What is the voltage?",
+            "options": [
+                "1V",
+                "0V",
+                "2V",
+                "1W"
+            ],
+            "answer": "1V"
+        },
+        {
+            "id": "cts1_33",
+            "question": "Determine the wattage in a circuit measuring 120 volts with 15 amperes of current flow.",
+            "options": [
+                "8 W",
+                "1800 W",
+                "135 W",
+                "120 W"
+            ],
+            "answer": "1800 W"
+        },
+        {
+            "id": "cts1_34",
+            "question": "The relationship among voltage, current, and resistance is defined by the formula",
+            "options": [
+                "V = I + R",
+                "R = V * I",
+                "I=V/R",
+                "P = V * I"
+            ],
+            "answer": "I=V/R"
+        },
+        {
+            "id": "cts1_35",
+            "question": "If the measured power in a circuit is 5W, and the current is 1.5 amps, what is the voltage?",
+            "options": [
+                "7.5V",
+                "3.3V",
+                "0.3V",
+                "6.5V"
+            ],
+            "answer": "3.3V"
+        },
+        {
+            "id": "cts1_39",
+            "question": "The study of sound-wave motion and sound behavior is the science of",
+            "options": [
+                "Psychoacoustics",
+                "The Study of Acoustics",
+                "Electroacoustics",
+                "Audiology"
+            ],
+            "answer": "The Study of Acoustics"
+        },
+        {
+            "id": "cts1_40",
+            "question": "Which type of sound is most intelligible?",
+            "options": [
+                "Direct sound",
+                "Reflected sound",
+                "Reverberant sound",
+                "Diffused sound"
+            ],
+            "answer": "Direct sound"
+        },
+        {
+            "id": "cts1_41",
+            "question": "Sound that bounces off of many surfaces before reaching the listener is called _____ sound",
+            "options": [
+                "Direct",
+                "Early reflected",
+                "Reverberant",
+                "Absorbed"
+            ],
+            "answer": "Reverberant"
+        },
+        {
+            "id": "cts1_75",
+            "question": "Which of the following is defined as highly efficient?",
+            "options": [
+                "Incandescent Lamp",
+                "Tungsten-Halogen Lamp",
+                "LED Lamp",
+                "Fluorescent Lamp"
+            ],
+            "answer": "LED Lamp"
+        },
+        {
+            "id": "cts1_78",
+            "question": "When applying the inverse square law to measurements of sound pressure level,",
+            "options": [
+                "A doubling of distance correlates to a loss of 3dB.",
+                "A doubling of distance correlates to a loss of 6dB.",
+                "A halving of distance correlates to a loss of 6dB.",
+                "A doubling of distance correlates to a gain of 6dB."
+            ],
+            "answer": "A doubling of distance correlates to a loss of 6dB."
+        },
         {
             "id": "cts2_1",
             "question": "Your room design can accommodate a screen with a width of up to 80 inches wide. The screen height is reasonably unrestrained. Your client's video image source produces a 1920x1080 resolution. Which of the following screens could be a viable option in this scenario? Choose all that apply.",
@@ -1608,4 +1884,4 @@ var cts2_questions = {
             "answer": "gantt chart"
         }
     ]
-};
+}
