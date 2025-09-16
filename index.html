@@ -110,10 +110,10 @@
                 </footer>
 
 
-    <script src="questions/c1_questions.js"></script>
-    <script src="questions/c2_questions.js"></script>
-    <script src="questions/c3_questions.js"></script>
-    <script src="questions/c4_questions.js"></script>
+    <script src="questions/cts1_questions.js"></script>
+    <script src="questions/cts2_questions.js"></script>
+    <script src="questions/cts3_questions.js"></script>
+    <script src="questions/cts4_questions.js"></script>
     <script>
         window.addEventListener('load', () => {
         setTimeout(() => { 
@@ -614,7 +614,7 @@
             // ##### MODIFICATION 4: UPDATED waitForDataAndInit FUNCTION #####
             function waitForDataAndInit() {
                 // Check for the variable from the first CTS class question file.
-                if (typeof window.c1_questions !== 'undefined') {
+                if (typeof window.cts1_questions !== 'undefined') {
                     main(); // If it exists, run the main app logic.
                 } else {
                     setTimeout(waitForDataAnd-Init, 100); // Otherwise, check again in 100ms.
