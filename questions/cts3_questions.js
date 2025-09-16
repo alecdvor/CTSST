@@ -1,7 +1,7 @@
-var chapter3_questions = {
+var cts3_questions = {
     "questions": [
         {
-            "id": "cts4_1",
+            "id": "cts3_1",
             "question": "After presenting a proposal, what is the correct plan of action for following up with the client?",
             "options": [
                 "Wait for the client to call back",
@@ -12,7 +12,7 @@ var chapter3_questions = {
             "answer": "Regularly, until a decision is made"
         },
         {
-            "id": "cts4_2",
+            "id": "cts3_2",
             "question": "When training a new user how to operate the solution that has been provided, which of the following is a best practice?",
             "options": [
                 "Provide training only if the client requests it",
@@ -23,7 +23,7 @@ var chapter3_questions = {
             "answer": "Provide complete user documentation prior to training"
         },
         {
-            "id": "cts4_3",
+            "id": "cts3_3",
             "question": "What is a benefit of offering a free training session for a client with new equipment?",
             "options": [
                 "It increases the project's profit margin",
@@ -34,7 +34,7 @@ var chapter3_questions = {
             "answer": "It is a positive approach for a long-term partnership"
         },
         {
-            "id": "cts4_14",
+            "id": "cts3_4",
             "question": "What should be done when you receive a call that there is no sound in a room for an AV event?",
             "options": [
                 "Tell the user to restart the entire system",
@@ -45,7 +45,7 @@ var chapter3_questions = {
             "answer": "Check microphone, batteries, and power switches to assure they are on."
         },
         {
-            "id": "cts4_18",
+            "id": "cts3_5",
             "question": "What should be done if a touch screen control panel is reportedly locked up, frozen, or other wise reported to be not functioning?",
             "options": [
                 "Tell the user to hit the screen harder",
@@ -56,7 +56,7 @@ var chapter3_questions = {
             "answer": "Check all connectors, confirm the screen is not in power saver mode."
         },
         {
-            "id": "cts4_20",
+            "id": "cts3_6",
             "question": "Good customer service is crucial for",
             "options": [
                 "Maximizing short-term profits",
@@ -67,7 +67,7 @@ var chapter3_questions = {
             "answer": "Building good customer relationships"
         },
         {
-            "id": "cts4_21",
+            "id": "cts3_7",
             "question": "When is the best time to train users during the System Commissioning and Training Phase of a project?",
             "options": [
                 "Before the system is installed",
