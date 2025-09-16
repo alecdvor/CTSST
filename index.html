@@ -671,7 +671,7 @@
             // ensuring the app doesn't start prematurely.
             function waitForDataAndInit() {
                 // Check for the variable from the first General class question file.
-                if (typeof window.c1_questions !== 'undefined') {
+                if (typeof window.cts1_questions !== 'undefined') {
                     main(); // If it exists, run the main app logic.
                 } else {
                     setTimeout(waitForDataAndInit, 100); // Otherwise, check again in 100ms.
