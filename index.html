@@ -339,8 +339,7 @@
                     chapterList.appendChild(div);
                 });
             }
-            
-            // ----- DOM-BASED GAME LOGIC -----
+               // ----- Replace the entire displayQuestion function with this one -----
             function displayQuestion() {
                 if (gameMode === 'study' && currentQuestionIndex >= allQuestions.length) {
                     displayFinalScore();
@@ -356,7 +355,9 @@
                     gameHTML += `<p id="live-score">Score: ${overallScore.correct} / ${overallScore.attempted}</p>`;
                 }
                 if (gameMode === 'exam') {
-                    gameHTML += `<p id="timer">Time: 00:00</p>`;
+                    // NEW: Added End Exam button
+                    gameHTML += `<button id="end-exam-btn" class="bg-red-600 text-white text-xs font-bold py-1 px-3 rounded hover:bg-red-700">End Exam</button>
+                                 <p id="timer" class="mt-1">Time: 00:00</p>`;
                 }
                 gameHTML += `</div></div>`;
                 
@@ -376,7 +377,11 @@
                 if (gameMode === 'exam') {
                     gameHTML += `<div class="mt-6 flex justify-between items-center">
                                     <button id="prev-btn" class="bg-gray-500 text-white font-bold py-2 px-6 rounded-lg hover:bg-gray-600 disabled:bg-gray-400" ${currentQuestionIndex === 0 ? 'disabled' : ''}>Previous</button>
-                                    <div id="submit-container"></div>
+                                    
+                                    <div id="submit-container">
+                                        <button id="grade-exam-btn" class="hidden bg-green-600 text-white font-bold py-2 px-6 rounded-lg hover:bg-green-700">Grade Exam</button>
+                                    </div>
+
                                     <button id="next-btn" class="bg-gray-500 text-white font-bold py-2 px-6 rounded-lg hover:bg-gray-600 disabled:bg-gray-400" ${currentQuestionIndex === allQuestions.length - 1 ? 'disabled' : ''}>Next</button>
                                  </div>`;
                 }
@@ -388,6 +393,13 @@
                 });
 
                 if (gameMode === 'exam') {
+                    // NEW: Add event listener for the End Exam button
+                    document.getElementById('end-exam-btn').addEventListener('click', () => {
+                        if (confirm('Are you sure you want to end the exam? Your progress will not be saved.')) {
+                            location.reload();
+                        }
+                    });
+
                     document.getElementById('prev-btn').addEventListener('click', () => {
                         if (currentQuestionIndex > 0) {
                             currentQuestionIndex--;
@@ -400,10 +412,17 @@
                             displayQuestion();
                         }
                     });
+
+                    // NEW: Add event listener for the grade button
+                    document.getElementById('grade-exam-btn').addEventListener('click', gradeExam);
+                    
                     checkExamCompletion();
                 }
             }
 
+
+
+            
             function handleOptionClick(selectedButton, question) {
                 if (gameMode === 'study') {
                     document.getElementById('options-container').classList.add('answered');
@@ -475,16 +494,30 @@
                 }
             }
 
+
+
+
+            // ----- Replace the entire checkExamCompletion function with this one -----
             function checkExamCompletion() {
                 const allAnswered = !userAnswers.includes(null);
-                const submitContainer = document.getElementById('submit-container');
-                if (allAnswered && submitContainer) {
-                    submitContainer.innerHTML = `<button id="grade-exam-btn" class="bg-green-600 text-white font-bold py-2 px-6 rounded-lg hover:bg-green-700">Grade Exam</button>`;
-                    document.getElementById('grade-exam-btn').addEventListener('click', gradeExam);
-                } else if(submitContainer) {
-                    submitContainer.innerHTML = ``;
+                const gradeBtn = document.getElementById('grade-exam-btn');
+
+                if (gradeBtn) {
+                    if (allAnswered) {
+                        gradeBtn.classList.remove('hidden'); // Show the button
+                    } else {
+                        gradeBtn.classList.add('hidden'); // Hide the button
+                    }
                 }
             }
+            
+
+
+
+
+
+
+
             
             function gradeExam() {
                 allQuestions.forEach((question, index) => {
