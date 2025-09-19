@@ -1,4 +1,4 @@
-var chapter2_questions = {
+var cts2_questions = {
     "questions": [
         {
             "id": "cts2_1",
